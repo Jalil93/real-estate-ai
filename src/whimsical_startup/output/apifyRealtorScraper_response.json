@@ -1,0 +1,129 @@
+{
+  "address": {
+    "city": "MCLEAN",
+    "country": "US",
+    "line": "7925 JONES BRANCH DR",
+    "line2": "",
+    "postal_code": "04275",
+    "state": "",
+    "state_code": "VA"
+  },
+  "advertiser_id": 100428066,
+  "agent_rating": 0,
+  "agent_team_details": { "is_team_member": false },
+  "agent_type": [],
+  "broker": {
+    "accent_color": "",
+    "designations": [],
+    "fulfillment_id": 0,
+    "name": "",
+    "photo": { "href": "" },
+    "video": ""
+  },
+  "designations": [],
+  "email": "arman@armannikmorad.com",
+  "feed_licenses": [],
+  "first_month": 0,
+  "first_year": 0,
+  "for_sale_price": {
+    "count": 2,
+    "last_listing_date": "2025-10-13T05:45:26Z",
+    "max": 559900,
+    "min": 189999
+  },
+  "full_name": "Arman Nikmorad",
+  "has_photo": true,
+  "href": "http://armannikmorad.com",
+  "id": "65e034180abc487989a0bd37",
+  "is_complete_sort_flag": false,
+  "is_realtor": true,
+  "is_served_area_same": true,
+  "languages": [],
+  "last_updated": "Mon, 17 Nov 2025 16:24:09 GMT",
+  "marketing_area_cities": [
+    { "city_state": "Greenway_VA", "name": "Greenway", "state_code": "VA" },
+    { "city_state": "McLean_VA", "name": "McLean", "state_code": "VA" },
+    {
+      "city_state": "West McLean_VA",
+      "name": "West McLean",
+      "state_code": "VA"
+    },
+    {
+      "city_state": "Great Falls_VA",
+      "name": "Great Falls",
+      "state_code": "VA"
+    },
+    { "city_state": "Tysons_VA", "name": "Tysons", "state_code": "VA" }
+  ],
+  "mls": [
+    {
+      "abbreviation": "PHPA",
+      "license_number": "846569853",
+      "member": ["Object"],
+      "primary": true,
+      "type": "A"
+    }
+  ],
+  "mls_monetization": false,
+  "name": "Arman Nikmorad, Agent",
+  "nar_only": 1,
+  "nrds_id": "846569853",
+  "office": {
+    "address": {
+      "city": "MCLEAN",
+      "country": "US",
+      "line": "7925 JONES BRANCH DR",
+      "line2": "",
+      "postal_code": "04275",
+      "state": "",
+      "state_code": "VA"
+    },
+    "email": "cam@nikkrealtygroup.com",
+    "feed_licenses": [],
+    "fulfillment_id": 0,
+    "licenses": [],
+    "mls": [ ["Object"] ],
+    "name": "Realty One Group Capital Properties",
+    "nrds_id": null,
+    "phone_list": { "phone_1": ["Object"] },
+    "phones": [ ["Object"] ],
+    "photo": { "href": "" },
+    "slogan": "",
+    "video": "",
+    "website": ""
+  },
+  "party_id": 534968336,
+  "person_name": "Arman Nikmorad",
+  "phones": [ { "ext": "", "number": "(703) 755-5816", "type": "Mobile" } ],
+  "photo": {
+    "href": "https://ap.rdcpix.com/25a4b643e80df0814d39e884f9ee9b00a-e1660832995s.jpg",
+    "is_zoomed": false
+  },
+  "recently_sold": { "count": 2, "last_sold_date": "2025-05-05", "max": 584000, "min": 360000 },
+  "recommendations_count": 0,
+  "review_count": 0,
+  "role": "agent",
+  "served_areas": [
+    { "name": "McLean", "state_code": "VA" },
+    { "name": "virgina", "state_code": "NA" }
+  ],
+  "served_areas_with_zips": [
+    { "name": "McLean", "state_code": "VA" },
+    { "name": "virgina", "state_code": "NA" }
+  ],
+  "social_media": {
+    "facebook": null,
+    "instagram": null,
+    "linkedin": null,
+    "tiktok": null,
+    "twitter": null,
+    "x": null,
+    "youtube": null
+  },
+  "specializations": [],
+  "title": "Agent",
+  "types": "agent",
+  "user_languages": [],
+  "web_url": "https://www.realtor.com/realestateagents/Arman-Nikmorad_MCLEAN_VA_100428066_641034351",
+  "zips": [ "22102" ]
+}

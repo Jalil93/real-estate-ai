@@ -1,0 +1,7 @@
+Nov-23-25 19:58:26: INFO - *****Beginning Log*****
+Nov-23-25 19:58:26: INFO - Function setup started.
+Nov-23-25 19:58:26: INFO - Function setup took 0.09670055100286845 seconds.
+Nov-23-25 19:58:26: INFO - Function scrape started.
+Nov-23-25 19:58:30: WARNING - HTTPS ERROR: API link for https://www.redfin.com/zipcode/20152 could not be found.
+Nov-23-25 19:58:30: WARNING - HTTPS ERROR: API link for https://www.redfin.com/zipcode/20151 could not be found.
+Nov-23-25 19:58:31: INFO - Function scrape took 4.3288007480005035 seconds.

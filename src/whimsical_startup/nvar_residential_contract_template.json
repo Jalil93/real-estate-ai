@@ -1,0 +1,4593 @@
+{
+  "id": 2064741,
+  "archived_at": null,
+  "fields": [
+    {
+      "uuid": "189bd8ed-c062-4292-92bf-19324dd3285f",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "offerDate",
+      "type": "date",
+      "required": false,
+      "readonly": true,
+      "default_value": "{{date}}",
+      "title": "Offer Date",
+      "description": "Date when the purchase offer is made.",
+      "preferences": {
+        "format": "MM/DD/YYYY"
+      },
+      "areas": [
+        {
+          "x": 0.4454115853658537,
+          "y": 0.1110181968081974,
+          "w": 0.2492225609756097,
+          "h": 0.02613327267183276,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "f00342cd-218b-4731-bdc4-a025026b9f62",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerName",
+      "type": "text",
+      "required": false,
+      "title": "Buyer Name",
+      "description": "Full legal name of the primary buyer.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.08450457317073171,
+          "y": 0.1382604086920676,
+          "w": 0.3457393292682926,
+          "h": 0.01999128686181334,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "c38e7af6-9dfa-48ef-9ea0-68aaa604c5b9",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyer2Name",
+      "type": "text",
+      "required": false,
+      "title": "Buyer 2 Name",
+      "description": "Full legal name of the secondary buyer (if applicable).",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4879573170731707,
+          "y": 0.1366056180436959,
+          "w": 0.2944817073170732,
+          "h": 0.0178781799969974,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "671dd868-e37d-4ad5-bf0b-ca8e311b57db",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "sellerName",
+      "type": "text",
+      "required": false,
+      "title": "Seller Name",
+      "description": "Full legal name of the primary seller.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1194283536585366,
+          "y": 0.1555974324244744,
+          "w": 0.2678887195121951,
+          "h": 0.01772585318215708,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "f215a85c-71dd-4197-9cc3-b808351bd280",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "seller2Name",
+      "type": "text",
+      "required": false,
+      "title": "Seller 2 Name",
+      "description": "Full legal name of the secondary seller (if applicable).",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.3877210365853658,
+          "y": 0.1554502090571815,
+          "w": 0.3586204268292683,
+          "h": 0.01938023555472501,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "3d4e9e77-5cce-4c49-9810-98cf8c3e6004",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "addressLine1",
+      "type": "text",
+      "required": false,
+      "title": "Street Address",
+      "description": "Property street address including number and street name.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2408231707317073,
+          "y": 0.4373122902067016,
+          "w": 0.2564,
+          "h": 0.0177,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "3b44584f-4d96-44f1-a4c5-a330d7a3bf44",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "unitNumber",
+      "type": "text",
+      "required": false,
+      "title": "Unit #",
+      "description": "Unit, apartment, or suite number.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1728353658536585,
+          "y": 0.4532006360049467,
+          "w": 0.1208231707317073,
+          "h": 0.02230803015933364,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "04ed80b8-2b43-421b-be08-d9077b403abd",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "city",
+      "type": "text",
+      "required": false,
+      "title": "City",
+      "description": "City where the property is located.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.3386890243902439,
+          "y": 0.4592309051292621,
+          "w": 0.2817987804878049,
+          "h": 0.01627776103501821,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "a4723dc9-97ca-437d-878d-42ca6a2cc16d",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "zipCode",
+      "type": "text",
+      "required": false,
+      "title": "ZIP Code",
+      "description": "ZIP code of the property.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.7100990853658536,
+          "y": 0.4599846887698015,
+          "w": 0.1708765243902439,
+          "h": 0.01552397739447881,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "9000ed05-d6f6-48b3-bc44-8f19def52288",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "taxMapId",
+      "type": "text",
+      "required": false,
+      "title": "Tax Map/ID #",
+      "description": "Tax map or parcel identification number.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2473475609756098,
+          "y": 0.3489193804840705,
+          "w": 0.2512,
+          "h": 0.0177,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "927620d1-2c36-4044-a3f1-1c58faaf912c",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "section",
+      "type": "text",
+      "required": false,
+      "title": "Section",
+      "description": "Subdivision section number or name.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1770807926829268,
+          "y": 0.3715328897002532,
+          "w": 0.1312118902439024,
+          "h": 0.01882129266598642,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "b35d0ff7-0c9f-4394-81e9-e111928363f3",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "subdivision_or_condominium",
+      "type": "text",
+      "required": false,
+      "title": "Subdivision/Condominium",
+      "description": "Subdivision or condominium name.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.5495198170731708,
+          "y": 0.3685177551380955,
+          "w": 0.2006,
+          "h": 0.0177,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "e6dc9269-9621-4851-b3b9-83d03113ca4d",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "parking_spaces",
+      "type": "text",
+      "required": false,
+      "title": "Parking Spaces #",
+      "description": "Assigned parking space numbers, if applicable.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.3316920731707317,
+          "y": 0.3851657735115718,
+          "w": 0.3754,
+          "h": 0.0177,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "92f8dc2a-4093-4b1b-a56c-3a82dd2956c8",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "county",
+      "type": "text",
+      "required": false,
+      "title": "County/Municipality",
+      "description": "County or municipality of the property.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2833079268292683,
+          "y": 0.402555797656204,
+          "w": 0.6218,
+          "h": 0.0177,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "56181cab-3e5f-401a-b48a-af7488d1c8aa",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "deedBook",
+      "type": "text",
+      "required": false,
+      "title": "Deed Book/Liber #",
+      "description": "Deed book/liber reference number.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.268734756097561,
+          "y": 0.4206642718332254,
+          "w": 0.2678506097560976,
+          "h": 0.01716541919917858,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "18b7a0e9-ac3d-4a14-b0fb-c50d8cee7700",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "page_folio",
+      "type": "text",
+      "required": false,
+      "title": "Page/Folio #",
+      "description": "Deed page/folio reference number.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6418673780487805,
+          "y": 0.4229256227548436,
+          "w": 0.2652,
+          "h": 0.0177,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "a95400a0-65c4-405f-8b5c-711df91272ab",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "sales_price",
+      "type": "number",
+      "required": false,
+      "title": "Sales Price",
+      "description": "Total purchase price offered by the buyer.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6615929878048781,
+          "y": 0.4967198633767151,
+          "w": 0.2524,
+          "h": 0.0177,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "4b5c9cc2-6e26-43af-99ba-1e48f0f61f2b",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "sellerSubsidyAmount",
+      "type": "number",
+      "required": false,
+      "title": "Seller Subsidy",
+      "description": "Dollar amount contribution reducing buyer costs.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6630564024390244,
+          "y": 0.7064366056180437,
+          "w": 0.1388948170731708,
+          "h": 0.0237819324377212,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "c807dd05-d037-471c-95bd-fa6d393fddf9",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "brokerCompPayment",
+      "type": "number",
+      "required": false,
+      "title": "Seller Payment to Buyer's Brokerage",
+      "description": "Amount seller pays toward buyer’s brokerage compensation.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6602667682926829,
+          "y": 0.7491372710676638,
+          "w": 0.1387576219512195,
+          "h": 0.02478887814107766,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "d5119955-2887-4722-bea2-ee7e0e7d511f",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingBrokerage",
+      "type": "text",
+      "required": false,
+      "title": "Listing Brokerage",
+      "description": "Name of the brokerage representing the seller.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.08314024390243903,
+          "y": 0.2040633649372828,
+          "w": 0.4778353658536586,
+          "h": 0.02125690635133812,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "29583f69-4727-484a-b7b9-3450e4db7a0e",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyersBrokerage",
+      "type": "text",
+      "required": false,
+      "title": "Buyer's Brokerage",
+      "description": "Name of the brokerage representing the buyer.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.08065548780487805,
+          "y": 0.2251693068723868,
+          "w": 0.4754420731707317,
+          "h": 0.02200476999272249,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "6fa3305e-e826-429c-bd4b-3ae30c092cf3",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "ratificationDate",
+      "type": "date",
+      "required": false,
+      "title": "Date of Ratification",
+      "description": "Date the final written acceptance is delivered to both parties.",
+      "preferences": {
+        "format": "MM/DD/YYYY"
+      },
+      "areas": [
+        {
+          "x": 0.3601067073170732,
+          "y": 0.1075201696013191,
+          "w": 0.2984298780487805,
+          "h": 0.02812414087343597,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "7048006f-53b4-4fef-b6e4-c716fc691008",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "appraisalContingency",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "true",
+          "uuid": "53bbedc7-53f0-4313-b165-8a6dcf7e9e23"
+        },
+        {
+          "value": "false",
+          "uuid": "35ff9e8c-91bb-4b26-92ad-11a48053cac9"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.424390243902439,
+          "y": 0.1341675990813262,
+          "w": 0.02536585365853661,
+          "h": 0.01805546045145451,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "53bbedc7-53f0-4313-b165-8a6dcf7e9e23",
+          "page": 1
+        },
+        {
+          "x": 0.7719512195121951,
+          "y": 0.1317766915964902,
+          "w": 0.02536585365853661,
+          "h": 0.01805546045145451,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "35ff9e8c-91bb-4b26-92ad-11a48053cac9",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "3ed45dc1-a6aa-43ab-b4b3-98a0cbec6df2",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "willProvideAppraisalAccess",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "true",
+          "uuid": "1409657c-45dc-43e7-8275-942344b93785"
+        },
+        {
+          "value": "false",
+          "uuid": "45101018-2173-4a95-8f83-445c2b9a70f5"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.5317073170731708,
+          "y": 0.1853954419645486,
+          "w": 0.02536585365853661,
+          "h": 0.01805546045145451,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "1409657c-45dc-43e7-8275-942344b93785",
+          "page": 1
+        },
+        {
+          "x": 0.635986328125,
+          "y": 0.1858038936939459,
+          "w": 0.02536585365853661,
+          "h": 0.01805546045145451,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "45101018-2173-4a95-8f83-445c2b9a70f5",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "7fac0c93-8276-46a3-b70c-89cdb08ca6eb",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "primaryResidence",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "true",
+          "uuid": "f79d058a-62cd-4541-9651-e647c97c40b4"
+        },
+        {
+          "value": "false",
+          "uuid": "da22c674-1314-490e-9af7-5f1728c1a1f6"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.414384170160061,
+          "y": 0.3012250077552684,
+          "w": 0.02536585365853661,
+          "h": 0.01805546045145451,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "f79d058a-62cd-4541-9651-e647c97c40b4",
+          "page": 1
+        },
+        {
+          "x": 0.5172908727134147,
+          "y": 0.301550881215729,
+          "w": 0.02536585365853661,
+          "h": 0.01805546045145451,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "da22c674-1314-490e-9af7-5f1728c1a1f6",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "e2a60f85-8e69-4227-af8e-d83e63567432",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "noteAmount",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.3246189024390244,
+          "y": 0.4137094399623108,
+          "w": 0.1778201219512195,
+          "h": 0.01809161504899287,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "73121250-d96a-416e-991d-234f576449fc",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "emdAmount",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6227362804878048,
+          "y": 0.3928037218067252,
+          "w": 0.1899466463414634,
+          "h": 0.02015784563864031,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "ad6909a8-653c-4c61-ba3e-9a373aeb6a4e",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "checkOrWired",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "checkBank",
+          "uuid": "b6a9d8d2-8122-47db-b1bb-29bcf2b11c27"
+        },
+        {
+          "value": "wired",
+          "uuid": "7a91e617-9d43-430b-a41c-3efde4ce833e"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.5775609756097561,
+          "y": 0.3963980421932629,
+          "w": 0.02536585365853661,
+          "h": 0.01805546045145451,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "b6a9d8d2-8122-47db-b1bb-29bcf2b11c27",
+          "page": 1
+        },
+        {
+          "x": 0.276538681402439,
+          "y": 0.4142802850931311,
+          "w": 0.02536585365853661,
+          "h": 0.01805546045145451,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "7a91e617-9d43-430b-a41c-3efde4ce833e",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "2702b00f-f42a-4ad4-ae14-072cdffbf3ff",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "notePayableDate",
+      "type": "date",
+      "required": false,
+      "preferences": {
+        "format": "MM/DD/YYYY"
+      },
+      "areas": [
+        {
+          "x": 0.7288185975609756,
+          "y": 0.4155055650432837,
+          "w": 0.1726448170731708,
+          "h": 0.01704906947065754,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "760309b4-af5a-41e7-93b2-e9eb5bb51541",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "depositDeliveredTo",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "settlementAgent",
+          "uuid": "8bad1aac-7e7f-4285-b2fb-fbf45cacbedb"
+        },
+        {
+          "value": "buyersBroker",
+          "uuid": "a6cc9358-b24b-44a9-b9ad-2f08aa30cf8b"
+        },
+        {
+          "value": "other",
+          "uuid": "7abe7015-2247-481a-8fb0-59de2b84e251"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.5522713414634146,
+          "y": 0.4355986102114128,
+          "w": 0.02821646341463413,
+          "h": 0.01579592014427045,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "8bad1aac-7e7f-4285-b2fb-fbf45cacbedb",
+          "page": 1
+        },
+        {
+          "x": 0.7611756859756098,
+          "y": 0.4341049350272431,
+          "w": 0.02821646341463413,
+          "h": 0.01579592014427045,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "a6cc9358-b24b-44a9-b9ad-2f08aa30cf8b",
+          "page": 1
+        },
+        {
+          "x": 0.2104130740282012,
+          "y": 0.4507867585277376,
+          "w": 0.02821646341463413,
+          "h": 0.01579592014427045,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "7abe7015-2247-481a-8fb0-59de2b84e251",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "a274fdf4-08cf-4a44-b34a-a3e3660fa72e",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "otherEMDRecipient",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2941996951219512,
+          "y": 0.4500677227489547,
+          "w": 0.3184832317073171,
+          "h": 0.0186587278915879,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "3e4a7ec3-f32d-4111-b6b8-111c6d86e2c3",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "settlementDate",
+      "type": "date",
+      "required": false,
+      "preferences": {
+        "format": "MM/DD/YYYY"
+      },
+      "areas": [
+        {
+          "x": 0.4692682926829268,
+          "y": 0.8128771231395771,
+          "w": 0.1726448170731708,
+          "h": 0.01704906947065754,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "656b493f-fd21-46fd-a587-809fd3d55608",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "settlementAgent",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.5580487804878049,
+          "y": 0.4707007792343115,
+          "w": 0.2462881097560976,
+          "h": 0.01715156888631281,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "uuid": "446f85da-2988-4b46-bdf0-1ce35563061f",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "resalePkgToSeller",
+      "type": "multiple",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "mail",
+          "uuid": "c9ea3a2b-03fd-4d5d-8240-89cc18ec636d"
+        },
+        {
+          "value": "fax",
+          "uuid": "fe961907-2476-4d34-8c9d-eaae0ac9688a"
+        },
+        {
+          "value": "email",
+          "uuid": "429275d3-8617-441b-8272-4e03f1630d12"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.7736585365853659,
+          "y": 0.1356633884930216,
+          "w": 0.01853658536585368,
+          "h": 0.01053103501865887,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "c9ea3a2b-03fd-4d5d-8240-89cc18ec636d",
+          "page": 3
+        },
+        {
+          "x": 0.4558299590320122,
+          "y": 0.1500216034563709,
+          "w": 0.01853658536585368,
+          "h": 0.01053103501865887,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "fe961907-2476-4d34-8c9d-eaae0ac9688a",
+          "page": 3
+        },
+        {
+          "x": 0.5539635337271341,
+          "y": 0.1524955050627316,
+          "w": 0.01853658536585368,
+          "h": 0.01053103501865887,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "429275d3-8617-441b-8272-4e03f1630d12",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "uuid": "47e05a62-a5ae-419e-98d3-c746ea688c35",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "resalePkgToSellerText",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2057620760289634,
+          "y": 0.1691969732817798,
+          "w": 0.4228547184641768,
+          "h": 0.01813802022006877,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "uuid": "da68b494-55b6-4b93-962b-ebac9f4e74db",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "generalDeliveryToSeller",
+      "type": "multiple",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "mail",
+          "uuid": "6035a131-d916-449c-a481-6f24012b479a"
+        },
+        {
+          "value": "fax",
+          "uuid": "f2fe43c4-33ba-47e6-a029-a470319d836c"
+        },
+        {
+          "value": "email",
+          "uuid": "7e6aedcf-a2c3-44c3-a411-651e85dedfb8"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.3283689024390244,
+          "y": 0.1944290677816383,
+          "w": 0.02089939024390242,
+          "h": 0.01355887494631949,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "6035a131-d916-449c-a481-6f24012b479a",
+          "page": 3
+        },
+        {
+          "x": 0.8065074790396343,
+          "y": 0.192355141964717,
+          "w": 0.02089939024390242,
+          "h": 0.01355887494631949,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "f2fe43c4-33ba-47e6-a029-a470319d836c",
+          "page": 3
+        },
+        {
+          "x": 0.116089462652439,
+          "y": 0.2105128939722999,
+          "w": 0.02089939024390242,
+          "h": 0.01355887494631949,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "7e6aedcf-a2c3-44c3-a411-651e85dedfb8",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "uuid": "6ab18261-ba45-4972-9091-4948b3aa4c47",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "generalDeliveryToBuyer",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2022560975609756,
+          "y": 0.2250103056357105,
+          "w": 0.2884756097560975,
+          "h": 0.02216377122939878,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "uuid": "dc18d0ec-46cb-470d-8425-85846c90e457",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "hoa",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "true",
+          "uuid": "bcf4feff-5cbd-4ea9-82a7-341951af9896"
+        },
+        {
+          "value": "false",
+          "uuid": "d1e9d328-5cc2-438d-bb1c-a1e5353b371c"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.7556173780487805,
+          "y": 0.4083505093928508,
+          "w": 0.02389481707317076,
+          "h": 0.01365380794626309,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "bcf4feff-5cbd-4ea9-82a7-341951af9896",
+          "page": 3
+        },
+        {
+          "x": 0.8422484756097561,
+          "y": 0.4085625110417526,
+          "w": 0.02389481707317076,
+          "h": 0.01365380794626309,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "d1e9d328-5cc2-438d-bb1c-a1e5353b371c",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "uuid": "1d5f6ec0-8cbf-4291-ac9c-3016fb74d2dc",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "condo",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "true",
+          "uuid": "d6c96d11-2048-45de-9993-499e4a4fe850"
+        },
+        {
+          "value": "false",
+          "uuid": "7bfeb60a-99c1-44fa-b807-5e6dd2fa0f18"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.482606230945122,
+          "y": 0.4428092492242828,
+          "w": 0.02389481707317076,
+          "h": 0.01365380794626309,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "d6c96d11-2048-45de-9993-499e4a4fe850",
+          "page": 3
+        },
+        {
+          "x": 0.5706776986471036,
+          "y": 0.4417463084097104,
+          "w": 0.02389481707317076,
+          "h": 0.01365380794626309,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "7bfeb60a-99c1-44fa-b807-5e6dd2fa0f18",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "uuid": "86125f7f-38cb-4af7-8d1d-f482ab7de590",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "daysResaleDiscCancelBeforeRatification",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.3141920731707317,
+          "y": 0.6639656086214004,
+          "w": 0.05946646341463413,
+          "h": 0.0202845797734752,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "uuid": "cf5333f3-4407-4d9b-a1e3-4bc81537c95e",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "daysResaleDiscCancelAfterRatification",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6845045731707317,
+          "y": 0.7015546787586125,
+          "w": 0.05946646341463413,
+          "h": 0.0202845797734752,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "uuid": "e0ae6356-e24b-49fd-80c1-c65c74a089bd",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "resalePkgToBuyerElectronic",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2635060975609756,
+          "y": 0.8608326953654084,
+          "w": 0.4203963414634147,
+          "h": 0.02009585428317051,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "uuid": "6356d3a1-b51d-416d-be11-e11a962256c3",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "resalePkgToBuyerHardCopy",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1362804878048781,
+          "y": 0.8828337553736529,
+          "w": 0.4203963414634147,
+          "h": 0.02009585428317051,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "uuid": "a33cb5ba-60c7-410a-98a4-d60df82d12a5",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "sellerDeliverPropertyDebris",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "dateOfOffer",
+          "uuid": "72bfdbef-e402-4d34-8254-c572c3c6525d"
+        },
+        {
+          "value": "dateOfHomeInspection",
+          "uuid": "f90a0397-bc67-4ae2-a4f9-e23235feb4b8"
+        },
+        {
+          "value": "other",
+          "uuid": "6e91c7d8-0375-43ed-9e7f-0983f5723bcc"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.6257774390243902,
+          "y": 0.1275307696837642,
+          "w": 0.02690548780487811,
+          "h": 0.01413567546369371,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "72bfdbef-e402-4d34-8254-c572c3c6525d",
+          "page": 4
+        },
+        {
+          "x": 0.8084909727515244,
+          "y": 0.1306120434984306,
+          "w": 0.02690548780487811,
+          "h": 0.01413567546369371,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "f90a0397-bc67-4ae2-a4f9-e23235feb4b8",
+          "page": 4
+        },
+        {
+          "x": 0.2920005835556402,
+          "y": 0.1435251185811477,
+          "w": 0.02690548780487811,
+          "h": 0.01413567546369371,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "6e91c7d8-0375-43ed-9e7f-0983f5723bcc",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "7e46c512-4598-4169-83ab-755723dbd8fb",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "otherDateSellerDeliverPropertyDebris",
+      "type": "date",
+      "required": false,
+      "preferences": {
+        "format": "MM/DD/YYYY"
+      },
+      "areas": [
+        {
+          "x": 0.379077743902439,
+          "y": 0.1416053235969613,
+          "w": 0.3136051829268292,
+          "h": 0.02267500797801983,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "72515c02-1354-40e5-9403-304b1ec99fcd",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "inspectionContingency",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "true",
+          "uuid": "1692fe2f-21a6-44fa-84a1-37ad3077dd61"
+        },
+        {
+          "value": "false",
+          "uuid": "7af98957-f836-49bc-b897-c90125fe36ce"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.1143292682926829,
+          "y": 0.2546728696778753,
+          "w": 0.0271341463414634,
+          "h": 0.02113195176647403,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "1692fe2f-21a6-44fa-84a1-37ad3077dd61",
+          "page": 4
+        },
+        {
+          "x": 0.1136784251143293,
+          "y": 0.2893029204171587,
+          "w": 0.0271341463414634,
+          "h": 0.02113195176647403,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "7af98957-f836-49bc-b897-c90125fe36ce",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "1fb1ac6b-923d-414d-968d-1a89a3736fb4",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "sellerProvidesPropertyAccessBeginDate",
+      "type": "date",
+      "required": false,
+      "preferences": {
+        "format": "MM/DD/YYYY"
+      },
+      "areas": [
+        {
+          "x": 0.1205030487804878,
+          "y": 0.4780990518815146,
+          "w": 0.1499875250095274,
+          "h": 0.01336094986341374,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "594398f4-a41e-4ccc-a605-321024bd172b",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "sellerProvidesPropertyAccessEndDate",
+      "type": "date",
+      "required": false,
+      "preferences": {
+        "format": "MM/DD/YYYY"
+      },
+      "areas": [
+        {
+          "x": 0.3960022270388719,
+          "y": 0.4775505152158299,
+          "w": 0.1593006264291159,
+          "h": 0.01521417406509046,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "dc02d98c-1937-4bd5-af6b-7bf460e0ef9f",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "waterSupply",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "public",
+          "uuid": "8f79a70a-90b6-4253-8895-cf89ba90c2e4"
+        },
+        {
+          "value": "private well",
+          "uuid": "1472a6a5-ae1b-4499-9b6e-1660061e5c6b"
+        },
+        {
+          "value": "community well",
+          "uuid": "13f9dc1a-5e11-4b32-825c-c8408e41ee82"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.2326829268292683,
+          "y": 0.7280254401978682,
+          "w": 0.0248780487804878,
+          "h": 0.01425036990009709,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "8f79a70a-90b6-4253-8895-cf89ba90c2e4",
+          "page": 4
+        },
+        {
+          "x": 0.3198747141768293,
+          "y": 0.7264837709449449,
+          "w": 0.0248780487804878,
+          "h": 0.01425036990009709,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "1472a6a5-ae1b-4499-9b6e-1660061e5c6b",
+          "page": 4
+        },
+        {
+          "x": 0.497772187023628,
+          "y": 0.7264725022084857,
+          "w": 0.0248780487804878,
+          "h": 0.01425036990009709,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "13f9dc1a-5e11-4b32-825c-c8408e41ee82",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "8c279f65-6d03-46f0-b31c-199e34ad13aa",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "hotWater",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "oil",
+          "uuid": "7430cfa9-1952-4ea0-a6e0-6352e63b4b64"
+        },
+        {
+          "value": "gas",
+          "uuid": "e5b10fbc-7c5e-4525-a964-8f58b6d69f0b"
+        },
+        {
+          "value": "electric",
+          "uuid": "d2d21d3c-9d08-4f3f-bbab-dd0029e92036"
+        },
+        {
+          "value": "other",
+          "uuid": "63d24094-f02b-4fa2-86b3-3dd334108fb1"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.2303481088033537,
+          "y": 0.7429173142845973,
+          "w": 0.0248780487804878,
+          "h": 0.01425036990009709,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "7430cfa9-1952-4ea0-a6e0-6352e63b4b64",
+          "page": 4
+        },
+        {
+          "x": 0.3197026248094512,
+          "y": 0.7424411296782248,
+          "w": 0.0248780487804878,
+          "h": 0.01425036990009709,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "e5b10fbc-7c5e-4525-a964-8f58b6d69f0b",
+          "page": 4
+        },
+        {
+          "x": 0.4076396960746951,
+          "y": 0.7424272392357324,
+          "w": 0.0248780487804878,
+          "h": 0.01425036990009709,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "d2d21d3c-9d08-4f3f-bbab-dd0029e92036",
+          "page": 4
+        },
+        {
+          "x": 0.493201279058689,
+          "y": 0.7430979820266846,
+          "w": 0.0248780487804878,
+          "h": 0.01425036990009709,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "63d24094-f02b-4fa2-86b3-3dd334108fb1",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "76fefbaf-0eae-447b-ac19-c757c97c47dd",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "hotWaterOther",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.5736966463414634,
+          "y": 0.7412755432542253,
+          "w": 0.2936204268292683,
+          "h": 0.01531827739385305,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "bc5967e7-28cf-44c9-96b8-4b343176092f",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "airConditioning",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "oil",
+          "uuid": "77e44238-ca69-4ea0-98f1-a9bfe13ad8ed"
+        },
+        {
+          "value": "gas",
+          "uuid": "753a5c0d-f7e7-47ef-bc7c-677c256d718b"
+        },
+        {
+          "value": "electric",
+          "uuid": "a35a0b29-1fff-4923-904b-c796f1b0cb7a"
+        },
+        {
+          "value": "heat pump",
+          "uuid": "047b472f-5985-49d9-a5ea-1f58807a3026"
+        },
+        {
+          "value": "other",
+          "uuid": "9f008347-cc4c-4efa-b592-672527eec331"
+        },
+        {
+          "value": "zones",
+          "uuid": "52b33de2-7853-49d5-a5e2-e3468e7bccaa"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.231859756097561,
+          "y": 0.7589011247865262,
+          "w": 0.02960365853658536,
+          "h": 0.01653014204847147,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "77e44238-ca69-4ea0-98f1-a9bfe13ad8ed",
+          "page": 4
+        },
+        {
+          "x": 0.3221189024390244,
+          "y": 0.7615864790059478,
+          "w": 0.0232469512195122,
+          "h": 0.01309345384333305,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "753a5c0d-f7e7-47ef-bc7c-677c256d718b",
+          "page": 4
+        },
+        {
+          "x": 0.4094435975609756,
+          "y": 0.7596019080148401,
+          "w": 0.02372713414634148,
+          "h": 0.01583201261288225,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "a35a0b29-1fff-4923-904b-c796f1b0cb7a",
+          "page": 4
+        },
+        {
+          "x": 0.4962423780487805,
+          "y": 0.7614569224427301,
+          "w": 0.02372713414634148,
+          "h": 0.01583201261288225,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "047b472f-5985-49d9-a5ea-1f58807a3026",
+          "page": 4
+        },
+        {
+          "x": 0.611871367663872,
+          "y": 0.7601324159600669,
+          "w": 0.02372713414634148,
+          "h": 0.01583201261288225,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "9f008347-cc4c-4efa-b592-672527eec331",
+          "page": 4
+        },
+        {
+          "x": 0.7941933831935976,
+          "y": 0.7568522017639243,
+          "w": 0.02372713414634148,
+          "h": 0.01583201261288225,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "52b33de2-7853-49d5-a5e2-e3468e7bccaa",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "d01d361e-b4ba-47f9-a1ec-bd5992571f45",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "heating",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "oil",
+          "uuid": "bdb27d25-8e5f-4932-89e9-d862f6a7ecbf"
+        },
+        {
+          "value": "gas",
+          "uuid": "96f64271-e0ea-402d-9ecb-6cf4b1ac7f1d"
+        },
+        {
+          "value": "electric",
+          "uuid": "c113d148-95c0-4aff-8ce2-999fd4554e0e"
+        },
+        {
+          "value": "heat pump",
+          "uuid": "c6bf28e5-7dc2-4a7a-b3f2-f41e2a013dc3"
+        },
+        {
+          "value": "other",
+          "uuid": "eb0f949b-4a46-4468-833e-ada70b9e76ea"
+        },
+        {
+          "value": "zones",
+          "uuid": "211c73b1-1f4a-4992-81b0-7c855612e8ef"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.231219512195122,
+          "y": 0.774506801719569,
+          "w": 0.02536579411204268,
+          "h": 0.01824936584939174,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "bdb27d25-8e5f-4932-89e9-d862f6a7ecbf",
+          "page": 4
+        },
+        {
+          "x": 0.319521514148247,
+          "y": 0.7749740536521692,
+          "w": 0.02536579411204268,
+          "h": 0.01824936584939174,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "96f64271-e0ea-402d-9ecb-6cf4b1ac7f1d",
+          "page": 4
+        },
+        {
+          "x": 0.4073983839081555,
+          "y": 0.7772714960445486,
+          "w": 0.02536579411204268,
+          "h": 0.01824936584939174,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "c113d148-95c0-4aff-8ce2-999fd4554e0e",
+          "page": 4
+        },
+        {
+          "x": 0.4951785501619664,
+          "y": 0.7745197165960747,
+          "w": 0.02536579411204268,
+          "h": 0.01824936584939174,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "c6bf28e5-7dc2-4a7a-b3f2-f41e2a013dc3",
+          "page": 4
+        },
+        {
+          "x": 0.6110777022198933,
+          "y": 0.7743742809034879,
+          "w": 0.02536579411204268,
+          "h": 0.01824936584939174,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "eb0f949b-4a46-4468-833e-ada70b9e76ea",
+          "page": 4
+        },
+        {
+          "x": 0.7944654213509909,
+          "y": 0.7758677334456414,
+          "w": 0.02536579411204268,
+          "h": 0.01824936584939174,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "211c73b1-1f4a-4992-81b0-7c855612e8ef",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "2c6ffb33-bab1-4ff8-b536-33a7d9c5383c",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "sewage",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "public",
+          "uuid": "b0742665-42c2-4612-946e-4aa4ed532690"
+        },
+        {
+          "value": "septic",
+          "uuid": "d73d3f27-1fe2-44c5-b1c3-40534a6f32de"
+        },
+        {
+          "value": "community septic",
+          "uuid": "28348895-fc1a-4ed5-bbc4-90fa3ae38327"
+        },
+        {
+          "value": "alternative septic",
+          "uuid": "5abd2571-dfd5-46d7-bcd0-2c19907f620e"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.231577743902439,
+          "y": 0.7912195983746541,
+          "w": 0.02536579411204268,
+          "h": 0.01824936584939174,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "b0742665-42c2-4612-946e-4aa4ed532690",
+          "page": 4
+        },
+        {
+          "x": 0.3194959091558689,
+          "y": 0.7912950476117586,
+          "w": 0.02536579411204268,
+          "h": 0.01824936584939174,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "d73d3f27-1fe2-44c5-b1c3-40534a6f32de",
+          "page": 4
+        },
+        {
+          "x": 0.5270154999523629,
+          "y": 0.7890666894731,
+          "w": 0.02536579411204268,
+          "h": 0.01824936584939174,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "28348895-fc1a-4ed5-bbc4-90fa3ae38327",
+          "page": 4
+        },
+        {
+          "x": 0.113052353277439,
+          "y": 0.805477097406879,
+          "w": 0.02536579411204268,
+          "h": 0.01824936584939174,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "5abd2571-dfd5-46d7-bcd0-2c19907f620e",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "f4bb77c2-1482-42e3-8247-da7554ec5c59",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "appliancesAndPropertyConveyed",
+      "type": "multiple",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "alarmSystem",
+          "uuid": "3edff10b-b485-44c2-899b-cfa67097651f"
+        },
+        {
+          "value": "builtInMicrowave",
+          "uuid": "4d9521d1-692c-4685-bccd-5b30ab437fe1"
+        },
+        {
+          "value": "ceilingFan",
+          "uuid": "f0c4f8b4-026d-407e-8375-71e885de1dbb"
+        },
+        {
+          "value": "centralVacuum",
+          "uuid": "d6ab188e-a8d0-4732-9f07-7b475571e362"
+        },
+        {
+          "value": "clothesDryer",
+          "uuid": "9ea50a2e-1c76-4db0-b419-e353a574f1ee"
+        },
+        {
+          "value": "clothesWasher",
+          "uuid": "fa3ec5c1-11ab-4d56-9def-0964a8ef7b88"
+        },
+        {
+          "value": "cooktop",
+          "uuid": "55ea9dbd-78c8-40ff-a4b0-92ffc788ce31"
+        },
+        {
+          "value": "dishwasher",
+          "uuid": "86ed54f6-cba0-4f74-b715-ea02b22965db"
+        },
+        {
+          "value": "disposer",
+          "uuid": "edd8d647-d1c9-46cb-a449-c215c871d21d"
+        },
+        {
+          "value": "electronicAirFilter",
+          "uuid": "380894a2-9c7f-435a-8d0a-cda95c87d365"
+        },
+        {
+          "value": "fireplaceScreenDoor",
+          "uuid": "c2c9c448-df80-4863-8bcf-7b5257a3fa47"
+        },
+        {
+          "value": "freezer",
+          "uuid": "c339c77d-8e3e-447a-8b3e-bb00a7a01465"
+        },
+        {
+          "value": "furnaceHumidifier",
+          "uuid": "6dabc4f3-4dc0-496e-98a1-f4aa0e4dfd79"
+        },
+        {
+          "value": "garageOpener",
+          "uuid": "dd09ebb6-32fe-43ad-9cba-a8d8004b67cb"
+        },
+        {
+          "value": "garageOpenerRemote",
+          "uuid": "2d85409c-b927-4b9b-82fd-a0a9fbddf308"
+        },
+        {
+          "value": "gasLog",
+          "uuid": "138d5e3d-0e16-488c-8bf6-717b36efc6bd"
+        },
+        {
+          "value": "hotTubeOrHotTubEquipmentOrCover",
+          "uuid": "4b245ecf-c7b6-4d56-9c38-11e0cbee417a"
+        },
+        {
+          "value": "Intercom",
+          "uuid": "b3574847-65e4-4498-8709-1623e84b1abf"
+        },
+        {
+          "value": "playgroundEquipment",
+          "uuid": "7b95c5c4-a8d9-4973-9e48-af56a865cb1d"
+        },
+        {
+          "value": "poolEquipmentAndOrCover",
+          "uuid": "003d30e1-eba3-4ecb-b2db-6ed3b4fa61f3"
+        },
+        {
+          "value": "refrigerator",
+          "uuid": "ee8a3b59-ef15-422e-ba95-658365a5ffb6"
+        },
+        {
+          "value": "refrigeratorIceMaker",
+          "uuid": "0bdef0e4-2cef-4a94-a4fc-ea1dab927fb6"
+        },
+        {
+          "value": "satelliteDish",
+          "uuid": "80d4d5e9-60a1-4833-bd1f-0ddd1344dca9"
+        },
+        {
+          "value": "storageShed",
+          "uuid": "80e42889-2035-4857-9c08-a6de09d43ef9"
+        },
+        {
+          "value": "stoveOrRange",
+          "uuid": "575a98ef-b676-4354-8edb-ec9dadb7951e"
+        },
+        {
+          "value": "wallOven",
+          "uuid": "e89ce91f-f6f3-4b4a-8f84-091e4c7a9047"
+        },
+        {
+          "value": "waterTreatmentSystem",
+          "uuid": "82cc396a-c882-489f-ad6b-465d46c33204"
+        },
+        {
+          "value": "windowACUnit",
+          "uuid": "c485c3cb-4d1f-4dfa-8b25-dccfb2db7227"
+        },
+        {
+          "value": "windowFan",
+          "uuid": "5082de73-9da1-4597-810e-cd19f371271e"
+        },
+        {
+          "value": "windowTreatments",
+          "uuid": "f2289b23-1a08-4c5f-babe-44571f83a0b6"
+        },
+        {
+          "value": "woodStove",
+          "uuid": "6fce54f8-0214-41d0-a318-b17518ddc3e6"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.08942835365853659,
+          "y": 0.3102349684941994,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "3edff10b-b485-44c2-899b-cfa67097651f",
+          "page": 5
+        },
+        {
+          "x": 0.08751220703125,
+          "y": 0.3247750728810014,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "4d9521d1-692c-4685-bccd-5b30ab437fe1",
+          "page": 5
+        },
+        {
+          "x": 0.08698882312309451,
+          "y": 0.3410037551913113,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "f0c4f8b4-026d-407e-8375-71e885de1dbb",
+          "page": 5
+        },
+        {
+          "x": 0.08371897627667683,
+          "y": 0.3616159069919542,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "d6ab188e-a8d0-4732-9f07-7b475571e362",
+          "page": 5
+        },
+        {
+          "x": 0.08509146341463415,
+          "y": 0.3770920440492315,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "9ea50a2e-1c76-4db0-b419-e353a574f1ee",
+          "page": 5
+        },
+        {
+          "x": 0.08500133979611281,
+          "y": 0.3954614649572306,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "fa3ec5c1-11ab-4d56-9def-0964a8ef7b88",
+          "page": 5
+        },
+        {
+          "x": 0.08502310403963415,
+          "y": 0.4129919852950462,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "55ea9dbd-78c8-40ff-a4b0-92ffc788ce31",
+          "page": 5
+        },
+        {
+          "x": 0.08468845274390244,
+          "y": 0.4293649994217182,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "86ed54f6-cba0-4f74-b715-ea02b22965db",
+          "page": 5
+        },
+        {
+          "x": 0.08499342011242378,
+          "y": 0.4491448055516165,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "edd8d647-d1c9-46cb-a449-c215c871d21d",
+          "page": 5
+        },
+        {
+          "x": 0.08620420874618902,
+          "y": 0.46496887123078,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "380894a2-9c7f-435a-8d0a-cda95c87d365",
+          "page": 5
+        },
+        {
+          "x": 0.0861841415777439,
+          "y": 0.4817104880267719,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "c2c9c448-df80-4863-8bcf-7b5257a3fa47",
+          "page": 5
+        },
+        {
+          "x": 0.3807752358041158,
+          "y": 0.3085863140941466,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "c339c77d-8e3e-447a-8b3e-bb00a7a01465",
+          "page": 5
+        },
+        {
+          "x": 0.3820405987995427,
+          "y": 0.3258838245588932,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "6dabc4f3-4dc0-496e-98a1-f4aa0e4dfd79",
+          "page": 5
+        },
+        {
+          "x": 0.3823373189786585,
+          "y": 0.340698625404904,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "dd09ebb6-32fe-43ad-9cba-a8d8004b67cb",
+          "page": 5
+        },
+        {
+          "x": 0.3816600371570122,
+          "y": 0.3601759234544283,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "2d85409c-b927-4b9b-82fd-a0a9fbddf308",
+          "page": 5
+        },
+        {
+          "x": 0.3799452172256098,
+          "y": 0.3756649626994358,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "138d5e3d-0e16-488c-8bf6-717b36efc6bd",
+          "page": 5
+        },
+        {
+          "x": 0.380247177496189,
+          "y": 0.3935047063646581,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "4b245ecf-c7b6-4d56-9c38-11e0cbee417a",
+          "page": 5
+        },
+        {
+          "x": 0.3807582055068597,
+          "y": 0.4117504005114648,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "b3574847-65e4-4498-8709-1623e84b1abf",
+          "page": 5
+        },
+        {
+          "x": 0.3807496308117378,
+          "y": 0.4280051618975801,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "7b95c5c4-a8d9-4973-9e48-af56a865cb1d",
+          "page": 5
+        },
+        {
+          "x": 0.3803778820503049,
+          "y": 0.4469053166610268,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "003d30e1-eba3-4ecb-b2db-6ed3b4fa61f3",
+          "page": 5
+        },
+        {
+          "x": 0.3770850204839939,
+          "y": 0.4664908405754013,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "ee8a3b59-ef15-422e-ba95-658365a5ffb6",
+          "page": 5
+        },
+        {
+          "x": 0.3777224061547256,
+          "y": 0.4847102256721892,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "0bdef0e4-2cef-4a94-a4fc-ea1dab927fb6",
+          "page": 5
+        },
+        {
+          "x": 0.6761502000762195,
+          "y": 0.3061673073325368,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "80d4d5e9-60a1-4833-bd1f-0ddd1344dca9",
+          "page": 5
+        },
+        {
+          "x": 0.6737886456745427,
+          "y": 0.322426530218393,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "80e42889-2035-4857-9c08-a6de09d43ef9",
+          "page": 5
+        },
+        {
+          "x": 0.676754775628811,
+          "y": 0.3415713315501093,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "575a98ef-b676-4354-8edb-ec9dadb7951e",
+          "page": 5
+        },
+        {
+          "x": 0.6726824504573171,
+          "y": 0.3594361883994405,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "e89ce91f-f6f3-4b4a-8f84-091e4c7a9047",
+          "page": 5
+        },
+        {
+          "x": 0.6749390243902439,
+          "y": 0.37794593957953,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "82cc396a-c882-489f-ad6b-465d46c33204",
+          "page": 5
+        },
+        {
+          "x": 0.6712875142911585,
+          "y": 0.3945486053143566,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "c485c3cb-4d1f-4dfa-8b25-dccfb2db7227",
+          "page": 5
+        },
+        {
+          "x": 0.6772811666349086,
+          "y": 0.4110080437504437,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "5082de73-9da1-4597-810e-cd19f371271e",
+          "page": 5
+        },
+        {
+          "x": 0.6744737876333842,
+          "y": 0.4297183318032649,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "f2289b23-1a08-4c5f-babe-44571f83a0b6",
+          "page": 5
+        },
+        {
+          "x": 0.6742560856516768,
+          "y": 0.444327857666349,
+          "w": 0.02374237804878049,
+          "h": 0.01305063813730023,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "6fce54f8-0214-41d0-a318-b17518ddc3e6",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "faddc0f6-3cd4-463b-a147-848dfb2284a3",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "alarmSystemQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1127057926829268,
+          "y": 0.3046404805370708,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "46b15a43-9be2-42be-98f2-77b44d794d44",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "builtInMicrowaveQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1141082317073171,
+          "y": 0.3250574171132442,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "fa021e83-7c26-4088-b98c-91ec87b36ad7",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "celingFanQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1140214129192073,
+          "y": 0.3435332199395509,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "2cfa5385-418a-4d9b-993d-0d5d9434fcb1",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "centralVacuumQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.101476455316311,
+          "y": 0.3605222659917952,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "fb2fa776-7455-4685-bf23-0dde8deb6a6d",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "clothesDryerQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1118988483708079,
+          "y": 0.3793123320992626,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "bfaf6ca9-d59a-4e12-8a7a-29b0eafb8d56",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "clothesWasherQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1058110530201982,
+          "y": 0.3957657912057999,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "5ff74c24-b030-472b-afa1-df0bb114c1de",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "cooktopQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1133035799352134,
+          "y": 0.4137855126904693,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "298ffe56-ce38-44a5-b8f1-a5cdd57da734",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "dishwasherQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1055829304020579,
+          "y": 0.43282199616765,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "4eb69817-62a3-4953-960e-8c9eee9a0087",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "disposerQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1119054878048781,
+          "y": 0.449113715328897,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "8344c559-1676-497a-9bcd-8d8abd23f0a3",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "electronicAirFilterQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1058434463128811,
+          "y": 0.4645709482211541,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "452c7684-83c8-4c33-be24-0fc5ffb55f49",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "fireplaceScreenDoorQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1086432926829268,
+          "y": 0.484994994405512,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "86e0e275-a75e-4999-ad02-1052f69e24ce",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "freezerQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4064634146341463,
+          "y": 0.3065013838996525,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "aa8f3465-6f8d-4e93-8124-8a0162d0fb7f",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "furnaceHumidifierQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4026448170731707,
+          "y": 0.3281844414345445,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "8bbed52c-492f-4d56-9a1d-1d39cf242712",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "garageOpenerQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4030716463414634,
+          "y": 0.3435310052411519,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "ea4a9264-a300-449f-8702-6fb1c0aae3a2",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "garageOpenerRemoteQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4056326219512195,
+          "y": 0.3598492432718921,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "2c2f8652-9541-4a75-a73b-d8f1f1ddffd4",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "gasLogQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.404157119378811,
+          "y": 0.3794901941559459,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "5a9a0f98-6d62-4d95-8880-5b7fecbba388",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "hotTubEquipmentOrCoverQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4120691811166159,
+          "y": 0.3982942196981699,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "5e4d6019-19b3-4d93-a11a-ce73ed1f56e5",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "intercomQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.402842987804878,
+          "y": 0.4120252046404805,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "23b0c125-0902-4098-a1a1-ce4c428797c2",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "playgroundEquipmentQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4037396984565549,
+          "y": 0.4295531886924945,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "64fa7fb7-de5b-4180-b839-e9efede51095",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "poolEquipmentOrCoverQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4028472751524391,
+          "y": 0.4471029808693973,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "4d703d78-edba-4d04-b68b-ae2c7d2378d9",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "refrigeratorQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4088547422827744,
+          "y": 0.4646673074165902,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "3f272560-58d3-4bc0-8766-d5ea87149c24",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "iceMakerQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4089481707317073,
+          "y": 0.4822095282963312,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "2a991ca8-5df4-41c3-8370-ba1f2a8aaa88",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "satelliteDishQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.7026429115853658,
+          "y": 0.3029122766846761,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "1fd5fcc3-8bfd-4828-adf8-dda02bb04406",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "storageShedQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.7018776200457316,
+          "y": 0.3267669039130343,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "17cfa1a6-aac2-4e3d-ba98-b68b3c0f428e",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "stoveOrRangeQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.701231064214939,
+          "y": 0.3431709645585223,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "fc38f97d-35cd-4825-a526-5d4c76a9654a",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "wallOvenQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.7024775509717988,
+          "y": 0.3598413353431869,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "0949b28e-c71a-47d9-83ed-c01f6811d2f8",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "waterTreatmentSystemQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.7031432212271341,
+          "y": 0.3793829341827922,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "80090b6a-82d5-4935-8362-22311dd6c767",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "windowACUnitQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.7052085318216463,
+          "y": 0.3983869453010335,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "c8f7401c-dc9f-4f56-8db0-c734a4748066",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "windowFanQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.7030762314214939,
+          "y": 0.4103112002581737,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "6c4bc433-3e85-48c3-a3a2-578243c676ab",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "windowTreatmentQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.702720917492378,
+          "y": 0.4302732379548109,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "d2889b86-b062-4b37-babf-cfc07ec554ea",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "woodStoveQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6989320931783536,
+          "y": 0.4474453664783838,
+          "w": 0.06583079268292683,
+          "h": 0.01713796708915372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "562a0d5d-c074-442c-ab22-7a6adef37311",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "otherAirConditioningType",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.686829268292683,
+          "y": 0.7611801425122195,
+          "w": 0.113385575457317,
+          "h": 0.01603734376471833,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "1ee7a2d1-3fca-4be2-9f18-88e900555b97",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "otherHeatingType",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6909146341463415,
+          "y": 0.7745009127848772,
+          "w": 0.1012573837652438,
+          "h": 0.01634619913338353,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "e78bb6b0-fb9c-4eb1-adb5-b9408058020f",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "numberBedroomsWithSeptic",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4753810975609756,
+          "y": 0.7924386078558389,
+          "w": 0.04364329268292683,
+          "h": 0.01539861897159145,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "d427343e-5f8c-42f4-bd36-acc41e826bc4",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "numberOfACZones",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.8803515625,
+          "y": 0.7611580728676055,
+          "w": 0.04005835556402437,
+          "h": 0.01462681992393555,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "3661d9e7-6f97-4aed-a018-7da2ccdc1c6c",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "numberOfHeatingZones",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.8824458126905488,
+          "y": 0.7800822829337792,
+          "w": 0.03715403487042679,
+          "h": 0.01680541164280325,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "25e90347-4df2-47f9-9abd-10f92bc426b6",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "numberOfBedroomsWithAltSeptic",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.3566920731707317,
+          "y": 0.8041458100229668,
+          "w": 0.04839403105945123,
+          "h": 0.01931507423935575,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "725311f4-1356-40b4-97ca-0774d23016f9",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "otherConveyances",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1143430830792683,
+          "y": 0.5204255737212697,
+          "w": 0.8116875476371951,
+          "h": 0.02067109419155055,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "ef4f97a0-3bc5-49b7-8dae-2c90cdc158a6",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "itemsThatDontConvey",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.311875,
+          "y": 0.543054001531123,
+          "w": 0.6188567073170732,
+          "h": 0.03644863599713621,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "73f7e158-b6f2-408a-b654-ad340b71417e",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "fuelTanks",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "leased",
+          "uuid": "b4f01f61-26cc-4413-b802-92002fde334c"
+        },
+        {
+          "value": "owned",
+          "uuid": "541ed5eb-1c77-4fc1-8927-bf79245786d4"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.2552537871570122,
+          "y": 0.5848478821766673,
+          "w": 0.02367127953506099,
+          "h": 0.01746948518156555,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "b4f01f61-26cc-4413-b802-92002fde334c",
+          "page": 5
+        },
+        {
+          "x": 0.5866071003239328,
+          "y": 0.5853524915958224,
+          "w": 0.02367127953506099,
+          "h": 0.01746948518156555,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "541ed5eb-1c77-4fc1-8927-bf79245786d4",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "fd80b14b-8a4c-4a52-aa7a-90fa4dab686a",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "fuelTanksLeasedQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4661699695121951,
+          "y": 0.5845353472205869,
+          "w": 0.07964802067454269,
+          "h": 0.01892632582893738,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "cc3f2d9f-3905-4345-aa28-b47570d05f75",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "fuelTanksOwnedQuantity",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2636882502858232,
+          "y": 0.6054367835843303,
+          "w": 0.08035817216082319,
+          "h": 0.01549607645593909,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "eb49467e-6cbf-440c-a302-b4473f5bd961",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "leasedItems",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.3818896484375,
+          "y": 0.6993010807684156,
+          "w": 0.5445774580792684,
+          "h": 0.03243510311675779,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "uuid": "5df7b509-a2f3-48b3-a921-840bf70f5d5a",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "yearBuiltForLead1978",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "builtBefore1978",
+          "uuid": "de4f29a6-c26f-4bad-9bf9-af5ad1e04831"
+        },
+        {
+          "value": "builtOnOrAfter1978",
+          "uuid": "062c1c77-b996-4ad5-9011-d5e807711a56"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.1923323170731707,
+          "y": 0.1521818503032801,
+          "w": 0.02457561213795731,
+          "h": 0.01615596446401657,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "de4f29a6-c26f-4bad-9bf9-af5ad1e04831",
+          "page": 6
+        },
+        {
+          "x": 0.303765243902439,
+          "y": 0.1524409634297156,
+          "w": 0.02457561213795731,
+          "h": 0.01615596446401657,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "062c1c77-b996-4ad5-9011-d5e807711a56",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "uuid": "35258bdd-df16-4ccb-a60c-d7b1cab4e716",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "leadBasedInspection",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "false",
+          "uuid": "6a5d94d2-22d3-4536-b860-ad1ba265b877"
+        },
+        {
+          "value": "true",
+          "uuid": "74d40e9b-af6a-41a9-86b1-e931cc1834a4"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.3044512195121951,
+          "y": 0.2221659501796125,
+          "w": 0.02323545874618904,
+          "h": 0.0165419071890307,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "6a5d94d2-22d3-4536-b860-ad1ba265b877",
+          "page": 6
+        },
+        {
+          "x": 0.4176981707317073,
+          "y": 0.2225310641304988,
+          "w": 0.02323545874618904,
+          "h": 0.0165419071890307,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "74d40e9b-af6a-41a9-86b1-e931cc1834a4",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "uuid": "c8cedcc7-8960-442d-ac0a-3ea0fa869190",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "termiteInspection",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "none",
+          "uuid": "3ecd05cb-9b5e-47b7-a694-105b835ba52c"
+        },
+        {
+          "value": "buyersExpense",
+          "uuid": "2b6d9ed9-c8f9-4aac-a331-d1676428c7c6"
+        },
+        {
+          "value": "sellersExpense",
+          "uuid": "e199de8e-baa0-4cb1-ae74-1978d8924cf9"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.5381859756097561,
+          "y": 0.2981920970496437,
+          "w": 0.02560409918064022,
+          "h": 0.01937702929245949,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "3ecd05cb-9b5e-47b7-a694-105b835ba52c",
+          "page": 6
+        },
+        {
+          "x": 0.6169642899676067,
+          "y": 0.2985938962635998,
+          "w": 0.02560409918064022,
+          "h": 0.01937702929245949,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "2b6d9ed9-c8f9-4aac-a331-d1676428c7c6",
+          "page": 6
+        },
+        {
+          "x": 0.114474531964558,
+          "y": 0.3165156487333388,
+          "w": 0.02560409918064022,
+          "h": 0.01937702929245949,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "e199de8e-baa0-4cb1-ae74-1978d8924cf9",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "uuid": "c930909d-223b-4545-a3b8-703991277c8d",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "homeWarranty",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "true",
+          "uuid": "965de340-d0f2-4b4e-becb-37648a9debbd"
+        },
+        {
+          "value": "false",
+          "uuid": "387bc1d8-7fa1-46bf-992a-36d44d6a35b0"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.3099237804878049,
+          "y": 0.518014251221954,
+          "w": 0.02605272246570123,
+          "h": 0.01838335671097879,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "965de340-d0f2-4b4e-becb-37648a9debbd",
+          "page": 6
+        },
+        {
+          "x": 0.4000536216177591,
+          "y": 0.5173358931609716,
+          "w": 0.02605272246570123,
+          "h": 0.01838335671097879,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "387bc1d8-7fa1-46bf-992a-36d44d6a35b0",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "uuid": "8b37abbe-a5e1-4f90-8762-5b9e1410603a",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "homeWarrantySelectedBy",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "buyer",
+          "uuid": "a097e9d7-2b94-4bc8-9409-bc9b534e9049"
+        },
+        {
+          "value": "seller",
+          "uuid": "9ea6f978-5a88-4bd8-99b9-f124a3dc674b"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.7459756097560976,
+          "y": 0.5161062363818385,
+          "w": 0.02605272246570123,
+          "h": 0.01838335671097879,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "a097e9d7-2b94-4bc8-9409-bc9b534e9049",
+          "page": 6
+        },
+        {
+          "x": 0.1096811880716463,
+          "y": 0.5353466456513164,
+          "w": 0.02605272246570123,
+          "h": 0.01838335671097879,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "9ea6f978-5a88-4bd8-99b9-f124a3dc674b",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "uuid": "37f77e24-cac2-4b5b-83dc-818c4553d859",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "homeWarrantyPaidBy",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "buyer",
+          "uuid": "fdc0a37a-6a2c-4e46-b8c1-9c9ec70be9bd"
+        },
+        {
+          "value": "seller",
+          "uuid": "cf8ba3c8-e0a8-4b50-b370-eb91afbe8b96"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.5442583781916921,
+          "y": 0.5357215496140848,
+          "w": 0.02605272246570123,
+          "h": 0.01838335671097879,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "fdc0a37a-6a2c-4e46-b8c1-9c9ec70be9bd",
+          "page": 6
+        },
+        {
+          "x": 0.6681035930354421,
+          "y": 0.5349768471160865,
+          "w": 0.02605272246570123,
+          "h": 0.01838335671097879,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "cf8ba3c8-e0a8-4b50-b370-eb91afbe8b96",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "uuid": "86c47a3f-155b-4d69-a875-c59837b7e3da",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "maxCostOfWarranty",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1448129049161585,
+          "y": 0.5543797025127166,
+          "w": 0.1443320074314024,
+          "h": 0.01682698322402509,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "uuid": "a1a79543-9ba5-41f9-a954-3402b8c18f6a",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "warrantyProvider",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4996798780487805,
+          "y": 0.5510982863200047,
+          "w": 0.395247832507622,
+          "h": 0.02211123871102583,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "uuid": "0eb0e041-92c9-4e43-8529-5e726c967e18",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerOrSellerRealEstateLicenseActive",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "true",
+          "uuid": "69528738-5ab3-44a6-ad9b-2bd211ddc84f"
+        },
+        {
+          "value": "false",
+          "uuid": "5d5df3f2-ae24-449d-b742-21bd701b03e1"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.5551371951219513,
+          "y": 0.2233790707261057,
+          "w": 0.02437499999999992,
+          "h": 0.01475205210735328,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "69528738-5ab3-44a6-ad9b-2bd211ddc84f",
+          "page": 9
+        },
+        {
+          "x": 0.6726219512195122,
+          "y": 0.2229786231670691,
+          "w": 0.02201219512195118,
+          "h": 0.01515270380429173,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "5d5df3f2-ae24-449d-b742-21bd701b03e1",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "uuid": "d3fef113-f964-4c57-8919-47d164c1511d",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerOrSellerNamesIfLicensedRealtors",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1136128048780488,
+          "y": 0.2207879394617514,
+          "w": 0.3917530487804878,
+          "h": 0.01809676287434508,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "uuid": "8bb7b75b-a258-4b65-adbd-10089a7a9add",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerOrSellerLicensedInState",
+      "type": "multiple",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "virginia",
+          "uuid": "9e60b41f-35a1-494b-8d06-0e837ae08efa"
+        },
+        {
+          "value": "other",
+          "uuid": "a0dbf161-490f-42d1-a073-e87cc94a5706"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.2371341463414634,
+          "y": 0.2414698780990519,
+          "w": 0.02432926829268295,
+          "h": 0.01323999379243265,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "9e60b41f-35a1-494b-8d06-0e837ae08efa",
+          "page": 9
+        },
+        {
+          "x": 0.3946341463414634,
+          "y": 0.2414816559684353,
+          "w": 0.02432926829268295,
+          "h": 0.01323999379243265,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "a0dbf161-490f-42d1-a073-e87cc94a5706",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "uuid": "4b14ea97-0ce8-4d6f-a9d3-421ed8505ffb",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "transactionPartiesAreRelated",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "buyer",
+          "uuid": "431a1842-8452-4dfb-b3c6-2e3cd1db67a2"
+        },
+        {
+          "value": "seller",
+          "uuid": "b6a002a6-43a6-4b3d-9f04-0d6d0216473a"
+        },
+        {
+          "value": "other",
+          "uuid": "b6f73531-ec07-416b-813e-7496d9114100"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.2495884146341464,
+          "y": 0.2582768977092044,
+          "w": 0.02650914634146342,
+          "h": 0.01451847396977707,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "431a1842-8452-4dfb-b3c6-2e3cd1db67a2",
+          "page": 9
+        },
+        {
+          "x": 0.3705030487804878,
+          "y": 0.2580060067133855,
+          "w": 0.02650914634146342,
+          "h": 0.01451847396977707,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "b6a002a6-43a6-4b3d-9f04-0d6d0216473a",
+          "page": 9
+        },
+        {
+          "x": 0.4826219512195122,
+          "y": 0.2584771214887227,
+          "w": 0.02650914634146342,
+          "h": 0.01451847396977707,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "b6f73531-ec07-416b-813e-7496d9114100",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "uuid": "ce22d169-de26-4a2a-ba6d-37185c7be1f8",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerOrSellerLicensedOtherStateName",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4960365853658537,
+          "y": 0.2366291737824628,
+          "w": 0.3410469464557927,
+          "h": 0.02180764975184862,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "uuid": "713f5280-16c2-420d-9c5d-1315c066d322",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "additionalForms",
+      "type": "multiple",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "homeInspectionContingency",
+          "uuid": "a0705546-c1df-426f-bc50-caf517682c0d"
+        },
+        {
+          "value": "leadBasedPaintContingency",
+          "uuid": "7967b1d2-228a-42ff-b0be-2851176368a8"
+        },
+        {
+          "value": "contingenciesOrClauses",
+          "uuid": "5ef4b8ca-fcad-41f7-94b8-fdda2d35059c"
+        },
+        {
+          "value": "preSettlementOccupancy",
+          "uuid": "7a9e775a-207d-4eb3-95cf-a9500caa045e"
+        },
+        {
+          "value": "residentialPropertyDisclosureStatementDPOR",
+          "uuid": "ac65b991-0406-4ef6-bc53-d3d6a4d316a8"
+        },
+        {
+          "value": "FHAHomeInspectionNotice",
+          "uuid": "dbaa5cd7-105a-4fc7-94fd-d6049fe65f1d"
+        },
+        {
+          "value": "conventionalFinancing",
+          "uuid": "05f00155-3fd2-443c-a7b4-732c17f0a71c"
+        },
+        {
+          "value": "extensionOfReviewPeriodForCommonInterestCommunity",
+          "uuid": "8b155867-b64e-4361-a934-a8a70e92a5ba"
+        },
+        {
+          "value": "newHomeSalesAddendum",
+          "uuid": "9e332083-0976-45ea-b737-a521fb847574"
+        },
+        {
+          "value": "escalationAddendum",
+          "uuid": "fb2764dc-2a17-47ce-a9f1-75acdc0b367d"
+        },
+        {
+          "value": "privateWellOrSepticAddendum",
+          "uuid": "a6a2193e-fac2-4802-b43c-a0662dcdf113"
+        },
+        {
+          "value": "postSettlementOccupancy",
+          "uuid": "35d13850-61f2-4784-a480-34981caca8f7"
+        },
+        {
+          "value": "leadBasedPaintDisclosure",
+          "uuid": "75962077-accf-48ea-a64d-ad8bb1717a21"
+        },
+        {
+          "value": "financingVAOrFHAOrUSDA",
+          "uuid": "b8f3614b-8480-4422-b470-b5ed57fab132"
+        },
+        {
+          "value": "saleAddendum",
+          "uuid": "79ddca57-fe69-4084-809b-1098642a092d"
+        },
+        {
+          "value": "solarPanelAddendum",
+          "uuid": "ed7715f9-9b8f-466e-b48e-26f065c95de7"
+        },
+        {
+          "value": "other",
+          "uuid": "48023b1c-5ef4-417f-90bb-25dc17c8859f"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.09546708269817074,
+          "y": 0.6647928521070789,
+          "w": 0.02182337318978658,
+          "h": 0.0156887948468114,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "a0705546-c1df-426f-bc50-caf517682c0d",
+          "page": 9
+        },
+        {
+          "x": 0.09480182926829268,
+          "y": 0.6816677463046935,
+          "w": 0.02182337318978658,
+          "h": 0.0156887948468114,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "7967b1d2-228a-42ff-b0be-2851176368a8",
+          "page": 9
+        },
+        {
+          "x": 0.09362173685213415,
+          "y": 0.6996708563062241,
+          "w": 0.02182337318978658,
+          "h": 0.0156887948468114,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "5ef4b8ca-fcad-41f7-94b8-fdda2d35059c",
+          "page": 9
+        },
+        {
+          "x": 0.09407735685022867,
+          "y": 0.714462015803092,
+          "w": 0.02182337318978658,
+          "h": 0.0156887948468114,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "7a9e775a-207d-4eb3-95cf-a9500caa045e",
+          "page": 9
+        },
+        {
+          "x": 0.0941982362328506,
+          "y": 0.7327977678518863,
+          "w": 0.02182337318978658,
+          "h": 0.0156887948468114,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "ac65b991-0406-4ef6-bc53-d3d6a4d316a8",
+          "page": 9
+        },
+        {
+          "x": 0.09525914634146342,
+          "y": 0.7542900889229138,
+          "w": 0.02182337318978658,
+          "h": 0.0156887948468114,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "dbaa5cd7-105a-4fc7-94fd-d6049fe65f1d",
+          "page": 9
+        },
+        {
+          "x": 0.09472560975609756,
+          "y": 0.7701548789823921,
+          "w": 0.02330977277057927,
+          "h": 0.01507168204243603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "05f00155-3fd2-443c-a7b4-732c17f0a71c",
+          "page": 9
+        },
+        {
+          "x": 0.09207373642339939,
+          "y": 0.7872537528112047,
+          "w": 0.02330977277057927,
+          "h": 0.01507168204243603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "8b155867-b64e-4361-a934-a8a70e92a5ba",
+          "page": 9
+        },
+        {
+          "x": 0.5349563226467225,
+          "y": 0.6630491876206903,
+          "w": 0.02330977277057927,
+          "h": 0.01507168204243603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "9e332083-0976-45ea-b737-a521fb847574",
+          "page": 9
+        },
+        {
+          "x": 0.5352267828220274,
+          "y": 0.6813825019428221,
+          "w": 0.02330977277057927,
+          "h": 0.01507168204243603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "fb2764dc-2a17-47ce-a9f1-75acdc0b367d",
+          "page": 9
+        },
+        {
+          "x": 0.5364545719798018,
+          "y": 0.6988867592254615,
+          "w": 0.02330977277057927,
+          "h": 0.01507168204243603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "a6a2193e-fac2-4802-b43c-a0662dcdf113",
+          "page": 9
+        },
+        {
+          "x": 0.5370365198647103,
+          "y": 0.7167389674930529,
+          "w": 0.02330977277057927,
+          "h": 0.01507168204243603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "35d13850-61f2-4784-a480-34981caca8f7",
+          "page": 9
+        },
+        {
+          "x": 0.5362332376619664,
+          "y": 0.7326532750535748,
+          "w": 0.02330977277057927,
+          "h": 0.01507168204243603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "75962077-accf-48ea-a64d-ad8bb1717a21",
+          "page": 9
+        },
+        {
+          "x": 0.5349135682641005,
+          "y": 0.7519731327565702,
+          "w": 0.02330977277057927,
+          "h": 0.01507168204243603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "b8f3614b-8480-4422-b470-b5ed57fab132",
+          "page": 9
+        },
+        {
+          "x": 0.5367165170064786,
+          "y": 0.7700298800896053,
+          "w": 0.02330977277057927,
+          "h": 0.01507168204243603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "79ddca57-fe69-4084-809b-1098642a092d",
+          "page": 9
+        },
+        {
+          "x": 0.5337363340796494,
+          "y": 0.7861644109569281,
+          "w": 0.02330977277057927,
+          "h": 0.01507168204243603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "ed7715f9-9b8f-466e-b48e-26f065c95de7",
+          "page": 9
+        },
+        {
+          "x": 0.5356419409775152,
+          "y": 0.8039009421951535,
+          "w": 0.02330977277057927,
+          "h": 0.01507168204243603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "48023b1c-5ef4-417f-90bb-25dc17c8859f",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "uuid": "72b3aa8a-8d8d-4dfe-b2bb-17d390af8392",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "otherForm",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.7003134527439024,
+          "y": 0.7984526231042766,
+          "w": 0.2166355040015244,
+          "h": 0.02217816120714022,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "uuid": "1dfc30fd-b1cc-42c1-8a24-60ad07e91ee5",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingOfficeName",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.08640113538233121,
+          "y": 0.5399255816688352,
+          "w": 0.4005637862042683,
+          "h": 0.02104838988613889,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "a90c0faa-989e-4dd5-a312-df499e21f13e",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerBrokerageAddress",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.5011556783536585,
+          "y": 0.5412552581304163,
+          "w": 0.3876810213414634,
+          "h": 0.022070533275245,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "999010fa-5b22-4ba1-9014-f4c481980ba6",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingBrokerageAddress",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.09030544374047256,
+          "y": 0.5676466389176714,
+          "w": 0.4016044505049542,
+          "h": 0.03319870949510173,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "9c42cd5e-a23d-42ac-8e55-d409116ffb77",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerBrokerageAddress",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.4999830320078359,
+          "y": 0.5673203327281954,
+          "w": 0.4015492806783536,
+          "h": 0.03511641846623026,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "bdc50893-3d06-4bb5-b4d8-7a114863823c",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingOffice_phone",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2464329268292683,
+          "y": 0.601896236970732,
+          "w": 0.2309171946455792,
+          "h": 0.01997689403082603,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "42c099d0-2362-49e7-9743-a8810b74abce",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingBrokerMLSBrokerCode",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2993995331554878,
+          "y": 0.6233888466554022,
+          "w": 0.1762044469321646,
+          "h": 0.01810352408805116,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "3d0a333e-1e00-4c87-9eb3-7bbd58b2f5d4",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingVAFirmLicenseNo",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2501205816501524,
+          "y": 0.6403994872862896,
+          "w": 0.2371320622141768,
+          "h": 0.01997289247951206,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "40f6fa1e-a029-4e99-a54c-ac0650f97c2c",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingAgentName",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1979052734375,
+          "y": 0.6632181726727345,
+          "w": 0.293250107183689,
+          "h": 0.01776564597364827,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "ed9d8cc5-7f59-4dc7-a40f-0de1d5484db7",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingAgentEmail",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.194405487804878,
+          "y": 0.6830457570225547,
+          "w": 0.2938042468559451,
+          "h": 0.01753153222435466,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "8b11f595-2c78-45e3-950d-59bc7df3e3e9",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingAgentPhone",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2123128453696646,
+          "y": 0.7044912768021148,
+          "w": 0.2755026319550304,
+          "h": 0.0171485791641155,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "c8c85b7f-6b24-465c-b6b1-b58302a2f495",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingAgentMLSID",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.227471953601372,
+          "y": 0.7261731536566268,
+          "w": 0.2626998380335366,
+          "h": 0.01620688075487464,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "5caef182-459a-4fdf-b61e-fe61f3edf5ef",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingAgentLicenseNo",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.2566768292682927,
+          "y": 0.7433366703963253,
+          "w": 0.2321036585365854,
+          "h": 0.01853220677021572,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "f61743ae-0c70-4313-acb5-d6d12da31fa4",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingAgentTeamName",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1975706487254056,
+          "y": 0.7617705949208593,
+          "w": 0.2766435427782012,
+          "h": 0.01969168001130372,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "fd46398f-15cf-4b73-aad2-c337984415dc",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "listingAgentTeamBusinessLicenseNo",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.3521446265243903,
+          "y": 0.7850962727251318,
+          "w": 0.1370476848323171,
+          "h": 0.01869487978051998,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "b40fafe6-8798-4395-ae1e-eaa855c622f8",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerBrokeragePhone",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6575208412728658,
+          "y": 0.6028710532745384,
+          "w": 0.2360923208841463,
+          "h": 0.01805288376624914,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "34d89a0c-a77a-4f09-9479-f457b8c016cd",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerBrokerMLSBrokerCode",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.7116817120807927,
+          "y": 0.6234432125594621,
+          "w": 0.1901824504573171,
+          "h": 0.01685793775315558,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "f7894f73-ab2d-4cee-bce5-883b6002aab2",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerVAFirmLicenseNo",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6611983410373187,
+          "y": 0.6424002628285841,
+          "w": 0.2442741282393293,
+          "h": 0.01882509118017617,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "3d2af846-8f6a-47ca-8076-d06f28d1d6ec",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerAgentName",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6076747928339368,
+          "y": 0.6650107857595901,
+          "w": 0.2988211580602134,
+          "h": 0.01925537293354374,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "5f1da8af-216e-475b-857b-b496ac16843c",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerAgentEmail",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6093971512957317,
+          "y": 0.6874041007529907,
+          "w": 0.2988789777057927,
+          "h": 0.01576109873952058,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "f996352b-003b-4d1e-91da-3ba34a1bc0be",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerAgentPhone",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6295333936737805,
+          "y": 0.7058731458559014,
+          "w": 0.2760552829649391,
+          "h": 0.01417630043978435,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "699db932-4fd0-4342-b8a8-9d514b485c94",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerAgentMLSID",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6385412299923781,
+          "y": 0.7234176946207376,
+          "w": 0.2690489233993902,
+          "h": 0.0183893820353711,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "31969469-fba1-41af-9c20-6eab085d4e96",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerAgentLicenseNo",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6692320884146341,
+          "y": 0.7457150284652883,
+          "w": 0.2372732469512195,
+          "h": 0.01733311047298891,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "984ff684-fa0b-49da-93da-dc71a5184e82",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerAgentTeamName",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6084469083460365,
+          "y": 0.7623361387734316,
+          "w": 0.2993043778582317,
+          "h": 0.01772756224390071,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "35271edd-fa9f-4cd3-8245-04092bbe3604",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerAgentTeamBusinessLicenseNo",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.7584908399382758,
+          "y": 0.7817385814076472,
+          "w": 0.1390701219512195,
+          "h": 0.01780334570482989,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "627864a9-d6c1-4e07-b429-6a203553d4fa",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "legalDescriptionLot",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.746564697284161,
+          "y": 0.3526189037141242,
+          "w": 0.1700272722942073,
+          "h": 0.01743857664727766,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "7d999d3c-e37f-4473-b4a5-df88108bfd7d",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "downPaymentAmount",
+      "type": "number",
+      "required": false,
+      "preferences": {
+        "format": "usd"
+      },
+      "areas": [
+        {
+          "x": 0.6600398961509146,
+          "y": 0.5249278248928504,
+          "w": 0.1423240996570122,
+          "h": 0.02094899503108516,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "9ace7d80-a5d8-4843-9c32-d436fa3f959f",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "financingAmount",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6650725276295731,
+          "y": 0.5690980981684486,
+          "w": 0.1329909012957318,
+          "h": 0.02236365840771004,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "052b86f2-4bbb-4336-804a-7bc5abda7140",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "secondTrustAmount",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6619484803734756,
+          "y": 0.6256335329632159,
+          "w": 0.1375008336509146,
+          "h": 0.02485294528895066,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "8cda6a14-9448-4d74-9237-cb373e0252d8",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "sellerHeldTrust",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6611103039253049,
+          "y": 0.6547415071442869,
+          "w": 0.1383876000381097,
+          "h": 0.01998222943257821,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "6d904292-239d-424e-a5b5-595354931c87",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "totalFinancing",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6654586270960365,
+          "y": 0.6812721603152082,
+          "w": 0.1273811451981708,
+          "h": 0.01897255064584114,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "77fdabc7-f8ad-4b1d-9ca2-d9fdae50a744",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "downPaymentPercent",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "validation": {
+        "min": "0",
+        "max": "100"
+      },
+      "areas": [
+        {
+          "x": 0.8488955864910449,
+          "y": 0.5245897669564435,
+          "w": 0.0637031964557927,
+          "h": 0.02031362227416167,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "9372de2a-49cb-4aa6-af09-a89a48bc4c14",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "financingPercent",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "validation": {
+        "min": "0",
+        "max": "100"
+      },
+      "areas": [
+        {
+          "x": 0.8499247332317074,
+          "y": 0.5689752459436228,
+          "w": 0.06749690358231708,
+          "h": 0.0199889906744537,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "2050941f-5296-4210-994e-6c7998a6102a",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "secondTrustPercent",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "validation": {
+        "min": "0",
+        "max": "100"
+      },
+      "areas": [
+        {
+          "x": 0.8518795255335366,
+          "y": 0.628703090779837,
+          "w": 0.06232600514481701,
+          "h": 0.02014367133042105,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "eeae68b6-0923-4994-9bd3-5db5682d8496",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "sellerHeldTrustPercent",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "validation": {
+        "min": "0",
+        "max": "100"
+      },
+      "areas": [
+        {
+          "x": 0.8498598275533537,
+          "y": 0.6550408415805152,
+          "w": 0.06323718559451219,
+          "h": 0.0172492618747645,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "173ec765-8af9-43a7-8530-76f834bbdbbd",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "totalFinancingPercent",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "validation": {
+        "min": "0",
+        "max": "100"
+      },
+      "areas": [
+        {
+          "x": 0.8491556307164634,
+          "y": 0.6804726319647231,
+          "w": 0.06313631383384144,
+          "h": 0.01931300447143458,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "960eb9ea-4c43-4aa0-9848-d40832642457",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "sellerSubsidyToBuyerPercent",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "validation": {
+        "min": "0",
+        "max": "100"
+      },
+      "areas": [
+        {
+          "x": 0.8504673208841463,
+          "y": 0.7135926442839817,
+          "w": 0.06292218464176824,
+          "h": 0.01947085877154764,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "dba29db7-548c-4b03-b236-2290d06ef703",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "brokerCompPaymentPercent",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.8548650676448171,
+          "y": 0.7539792898101921,
+          "w": 0.06274235423018293,
+          "h": 0.02028078195648086,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "8c391cde-c760-4b29-a82c-f0ddd7d35463",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "financingType",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "conventional",
+          "uuid": "7b5a9a92-7060-4c3c-9c61-fcd7148f7b75"
+        },
+        {
+          "value": "VA",
+          "uuid": "deea17ce-5d1a-4817-9ed5-1ad6d7109791"
+        },
+        {
+          "value": "FHA",
+          "uuid": "1440cf29-f689-4317-8788-ebb2807d7abb"
+        },
+        {
+          "value": "USDA",
+          "uuid": "5295d27b-e863-4a3c-8264-4c69dd89a9dd"
+        },
+        {
+          "value": "other",
+          "uuid": "b84f5997-550b-478f-a794-2e83c1737352"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.1729773246951219,
+          "y": 0.5900316849272325,
+          "w": 0.02672500238185976,
+          "h": 0.0188133624952902,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "7b5a9a92-7060-4c3c-9c61-fcd7148f7b75",
+          "page": 0
+        },
+        {
+          "x": 0.3226829268292683,
+          "y": 0.5917554914316,
+          "w": 0.02553478706173778,
+          "h": 0.0159925907827807,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "deea17ce-5d1a-4817-9ed5-1ad6d7109791",
+          "page": 0
+        },
+        {
+          "x": 0.3901829268292683,
+          "y": 0.5903421471055886,
+          "w": 0.02367788919588415,
+          "h": 0.01574403465288243,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "1440cf29-f689-4317-8788-ebb2807d7abb",
+          "page": 0
+        },
+        {
+          "x": 0.1712806068978659,
+          "y": 0.6108868504792294,
+          "w": 0.02610780297256096,
+          "h": 0.01509293165975889,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "5295d27b-e863-4a3c-8264-4c69dd89a9dd",
+          "page": 0
+        },
+        {
+          "x": 0.2630466368140244,
+          "y": 0.607421737015472,
+          "w": 0.02309790634527437,
+          "h": 0.01562233229912391,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "b84f5997-550b-478f-a794-2e83c1737352",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "0f2e9fea-e54b-4abe-8c64-96a76835b224",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "otherFinancingType",
+      "type": "text",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.3523631701410097,
+          "y": 0.6026582339961465,
+          "w": 0.2779798256478659,
+          "h": 0.02237405324215802,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "008d3b00-010d-471b-b42a-b63841566b6e",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "financingContingency",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "true",
+          "uuid": "0888589c-a968-4dfd-aa33-4f93e9f92e24"
+        },
+        {
+          "value": "false",
+          "uuid": "b0f245e2-a126-45fb-8bc0-4172461b4f1c"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.4271129310235314,
+          "y": 0.8214754261080081,
+          "w": 0.02366079935213417,
+          "h": 0.01928784529248306,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "0888589c-a968-4dfd-aa33-4f93e9f92e24",
+          "page": 0
+        },
+        {
+          "x": 0.7731859756097561,
+          "y": 0.8211530534126377,
+          "w": 0.02387671493902443,
+          "h": 0.02059492673205532,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "b0f245e2-a126-45fb-8bc0-4172461b4f1c",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "uuid": "d33a31b1-2a42-4132-a1fe-d31ed872201a",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "buyerDeliveredToEscrowAgent",
+      "type": "radio",
+      "required": false,
+      "preferences": {},
+      "options": [
+        {
+          "value": "hasDelivered",
+          "uuid": "1cb054e8-0d47-4825-bae0-1bcae07f13d7"
+        },
+        {
+          "value": "willDeliver",
+          "uuid": "9300a71a-b4f8-4ac6-ac4b-741b013de0ed"
+        }
+      ],
+      "areas": [
+        {
+          "x": 0.6815701219512195,
+          "y": 0.4458512455096873,
+          "w": 0.02514922351371951,
+          "h": 0.02118384469786172,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "1cb054e8-0d47-4825-bae0-1bcae07f13d7",
+          "page": 1
+        },
+        {
+          "x": 0.2695469107278963,
+          "y": 0.4688687586838263,
+          "w": 0.02543230754573172,
+          "h": 0.0167027051590759,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "option_uuid": "9300a71a-b4f8-4ac6-ac4b-741b013de0ed",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "581e1cfc-2261-4633-945d-17d85f686879",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "noOfDaysInDepositDelivery",
+      "type": "number",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.629027724847561,
+          "y": 0.4699012509125377,
+          "w": 0.06284108231707319,
+          "h": 0.0173233135714958,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "uuid": "e8406b11-dd08-4355-9517-367fefa911e6",
+      "submitter_uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0",
+      "name": "sellerProvidesPropertyAccess",
+      "type": "checkbox",
+      "required": false,
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.6533883542936991,
+          "y": 0.4181053393511759,
+          "w": 0.03333333333333333,
+          "h": 0.02574729967344888,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "uuid": "22f0fe3c-8b18-40a1-a2b4-14928c2b4fd3",
+      "submitter_uuid": "a687d9b2-8824-4f42-9ca9-32a884822665",
+      "name": "seller1Signature",
+      "type": "signature",
+      "required": true,
+      "title": "seller1Signature",
+      "description": "Seller 1 signature confirming acceptance.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.171234756097561,
+          "y": 0.2355809434073376,
+          "w": 0.3116844512195122,
+          "h": 0.03118620052634738,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "1f398ca5-42a9-4e79-99bb-b7dcf4583e6a",
+      "submitter_uuid": "3c6e74b6-ac56-4043-957a-6d9aecb8357a",
+      "name": "buyer1Signature",
+      "type": "signature",
+      "required": true,
+      "title": "buyer1Signature",
+      "description": "Buyer 1 signature confirming acceptance.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.5809984756097561,
+          "y": 0.2354160532359696,
+          "w": 0.3107088414634146,
+          "h": 0.03285824970299042,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "a34fe9f7-ee91-4778-b310-714032601374",
+      "submitter_uuid": "bbb37318-beea-469c-9707-69d6c1584077",
+      "name": "seller2Signature",
+      "type": "signature",
+      "required": true,
+      "title": "seller2Signature",
+      "description": "Seller 2 signature confirming acceptance.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.1712414540513631,
+          "y": 0.3037094360817482,
+          "w": 0.309733231707317,
+          "h": 0.02333779049211743,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "30a7eb99-a2de-4ac9-a6ec-b095d1b66ea1",
+      "submitter_uuid": "81b7cedc-9a01-4846-9a5c-0de892d62104",
+      "name": "buyer2Signature",
+      "type": "signature",
+      "required": true,
+      "title": "buyer2Signature",
+      "description": "Buyer 2 signature confirming acceptance.",
+      "preferences": {},
+      "areas": [
+        {
+          "x": 0.5809894194280707,
+          "y": 0.3019844794948222,
+          "w": 0.3165625,
+          "h": 0.03108579130529632,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "d613ea53-4d2f-4c83-9a2e-5d392954c60d",
+      "submitter_uuid": "a687d9b2-8824-4f42-9ca9-32a884822665",
+      "name": "seller1Date",
+      "type": "date",
+      "required": true,
+      "preferences": {
+        "format": "MM/DD/YYYY"
+      },
+      "areas": [
+        {
+          "x": 0.07216463414634146,
+          "y": 0.2415758789235027,
+          "w": 0.09510390863185975,
+          "h": 0.02335719300466274,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "f13b5965-0c87-4c3e-9d5b-de832a0260c4",
+      "submitter_uuid": "3c6e74b6-ac56-4043-957a-6d9aecb8357a",
+      "name": "buyer1Date",
+      "type": "date",
+      "required": true,
+      "preferences": {
+        "format": "MM/DD/YYYY"
+      },
+      "areas": [
+        {
+          "x": 0.4934177013314894,
+          "y": 0.2386095708046685,
+          "w": 0.08073254096798788,
+          "h": 0.02457113488778731,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "269c7af6-6549-489e-bd41-14d0a3b32c26",
+      "submitter_uuid": "81b7cedc-9a01-4846-9a5c-0de892d62104",
+      "name": "buyer2Date",
+      "type": "date",
+      "required": true,
+      "preferences": {
+        "format": "MM/DD/YYYY"
+      },
+      "areas": [
+        {
+          "x": 0.4956400609941168,
+          "y": 0.3014339862298392,
+          "w": 0.08305675971798782,
+          "h": 0.02699474113366612,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "uuid": "596b32bf-12d0-43f0-951d-bd61348c5772",
+      "submitter_uuid": "bbb37318-beea-469c-9707-69d6c1584077",
+      "name": "seller2Date",
+      "type": "date",
+      "required": true,
+      "preferences": {
+        "format": "MM/DD/YYYY"
+      },
+      "areas": [
+        {
+          "x": 0.06753636622426032,
+          "y": 0.2989776137685433,
+          "w": 0.09420815072408535,
+          "h": 0.0294954807307366,
+          "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+          "page": 10
+        }
+      ]
+    }
+  ],
+  "name": "residential contract from base64 Three",
+  "preferences": {},
+  "schema": [
+    {
+      "attachment_uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+      "name": "string"
+    }
+  ],
+  "slug": "WvUbZgCQE97gH2",
+  "source": "api",
+  "submitters": [
+    {
+      "name": "buyersAgent",
+      "uuid": "7b848ab5-47f3-407c-bbc3-55ba098b35f0"
+    },
+    {
+      "name": "seller1",
+      "uuid": "a687d9b2-8824-4f42-9ca9-32a884822665"
+    },
+    {
+      "name": "buyer1",
+      "uuid": "3c6e74b6-ac56-4043-957a-6d9aecb8357a"
+    },
+    {
+      "name": "seller2",
+      "uuid": "bbb37318-beea-469c-9707-69d6c1584077"
+    },
+    {
+      "name": "buyer2",
+      "uuid": "81b7cedc-9a01-4846-9a5c-0de892d62104"
+    }
+  ],
+  "created_at": "2025-11-03T01:48:09.537Z",
+  "updated_at": "2025-11-23T02:59:53.257Z",
+  "author_id": 99049,
+  "external_id": "unique-key",
+  "folder_id": 197477,
+  "shared_link": false,
+  "application_key": "unique-key",
+  "folder_name": "string",
+  "author": {
+    "id": 99049,
+    "email": "jalil@whimsicalre.com",
+    "first_name": "Jalil",
+    "last_name": "Muhammad"
+  },
+  "documents": [
+    {
+      "id": 35031895,
+      "uuid": "d5d4a730-8778-4187-ba46-211a38076c40",
+      "url": "https://docuseal.com/file/WyJkMGJhOTdkNS1hN2EyLTQ5NzktOWNiZS00ODk3MTg3MjQ2NDQiLCJibG9iIiwxNzYzODY5MjE5XQ--5e99889c7ec297a4b991ca83292bdc4ba1c61c7fef44643e3a7da62d8119c901/string.pdf",
+      "preview_image_url": "https://docuseal.com/file/WyI3YTYwNjNiMS1hNGU0LTQyNTYtYTlmYS04MmY2ODI4ZWNmYTYiLCJibG9iIiwxNzYzODY5MjE5XQ--9d0e82ae524dde158b568e4b5237ebb6e9a18e170d3d1e3e09ccc973a97837ae/0.png",
+      "filename": "string.pdf"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "template_id": "2064741",
+  "submitters": [
+    {
+      "email": "",
+      "name": "",
+      "role": "buyersAgent",
+      "phone": "",
+      "order": 0,
+      "values": {
+        "offerDate": "",
+        "buyerName": "",
+        "buyer2Name": "",
+        "sellerName": "",
+        "seller2Name": "",
+        "streetAddress": "",
+        "unitNumber": "",
+        "city": "",
+        "zipCode": "",
+        "taxMapId": "",
+        "section": "",
+        "subdivision_or_condominium": "",
+        "parking_spaces": "",
+        "county": "",
+        "deedBook": "",
+        "page_folio": "",
+        "sales_price": "",
+        "seller_subsidy_amount": "",
+        "brokerCompPayment": "",
+        "listingBrokerage": "",
+        "buyersBrokerage": "",
+        "ratificationDate": "",
+        "appraisalContingency": "",
+        "willProvideAppraisalAccess": "",
+        "primaryResidence": "",
+        "noteAmount": "",
+        "emdAmount": "",
+        "checkOrWired": "",
+        "notePayableDate": "",
+        "depositDeliveredTo": "",
+        "otherEMDRecipient": ""
+      },
+      "external_id": "",
+      "completed": "",
+      "metadata": {},
+      "send_email": true,
+      "send_sms": false,
+      "completed_redirect_url": "",
+      "fields": []
+    },
+    {
+      "email": "",
+      "name": "",
+      "role": "buyer1",
+      "order": 1,
+      "values": {},
+      "send_email": true,
+      "send_sms": false,
+      "fields": []
+    }
+  ],
+  "send_email": true,
+  "send_sms": false,
+  "order": "random",
+  "message": {
+    "subject": "Please sign the residential sales contract.",
+    "body": "Greetings, \n this is a test body paragraph."
+  }
+}

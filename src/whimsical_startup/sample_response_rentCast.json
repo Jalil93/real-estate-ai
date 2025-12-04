@@ -1,0 +1,55 @@
+[
+  {
+    "id": "42835-Shaler-St,-Chantilly,-VA-20152",
+    "formattedAddress": "42835 Shaler St, Chantilly, VA 20152",
+    "addressLine1": "42835 Shaler St",
+    "addressLine2": null,
+    "city": "Chantilly",
+    "state": "VA",
+    "stateFips": "51",
+    "zipCode": "20152",
+    "county": "Loudoun",
+    "countyFips": "107",
+    "latitude": 38.910143,
+    "longitude": -77.520948,
+    "propertyType": "Townhouse",
+    "bedrooms": 4,
+    "bathrooms": 3.5,
+    "squareFootage": 2808,
+    "lotSize": 1742,
+    "yearBuilt": 2001,
+    "hoa": {
+      "fee": 108
+    },
+    "status": "Active",
+    "price": 725000,
+    "listingType": "Standard",
+    "listedDate": "2025-10-19T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-10-24T00:00:00.000Z",
+    "lastSeenDate": "2025-11-14T05:52:43.984Z",
+    "daysOnMarket": 27,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "VALO2109002",
+    "listingAgent": {
+      "name": "Nader Homos",
+      "phone": "7035770705",
+      "email": "naderhomos@kw.com"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Realty/Lee Beaver & Assoc.",
+      "phone": "7033302146",
+      "email": "beaver@kw.com"
+    },
+    "history": {
+      "2025-10-19": {
+        "event": "Sale Listing",
+        "price": 725000,
+        "listingType": "Standard",
+        "listedDate": "2025-10-19T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 27
+      }
+    }
+  }
+]
