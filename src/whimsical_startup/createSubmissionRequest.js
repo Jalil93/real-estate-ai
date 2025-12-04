@@ -2,9 +2,12 @@ import { getZillowDetailsByAddress } from "./api/apifyZillowScraper.js";
 import { getRealtorByName } from "./api/apifyRealtorScraper.js";
 import { getRentCastDetailsByAddress } from "./api/rentCastRequest.js";
 import fs from "fs";
+import dotenv from 'dotenv'; // Add this import
 
-const inputAddress = '8350 Greensboro Dr APT 517, Mc Lean, VA 22102';
-const realtorName = 'Arman Nikmorad';
+dotenv.config(); // Load .env variables into process.env
+
+const inputAddress = '123 Main St.';
+const realtorName = 'John Doe';
 
 const createSubmissionBody = async (address, realtorName) => {
     const now = new Date()

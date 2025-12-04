@@ -1,6 +1,7 @@
 import { ApifyClient } from 'apify-client';
-import fs from "fs";
+import fs from 'fs';
 
+// Rest of your code remains the same...
 const client = new ApifyClient({
     token: process.env.APIFY_TOKEN
 });
@@ -35,6 +36,3 @@ export const getZillowDetailsByAddress = async (address) => {
 
     return jsonOutput
 }
-
-
-
