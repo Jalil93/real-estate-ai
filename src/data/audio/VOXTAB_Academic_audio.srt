@@ -1,0 +1,81 @@
+1
+00:00:00,000 --> 00:00:11,000
+A quantum computer is a digital computer capable of exploiting quantum coherence among the physical two-state systems that store the binary arithmetic information.
+
+2
+00:00:11,000 --> 00:00:17,000
+To factor an integral is to find its expression as a product of prime numbers.
+
+3
+00:00:17,000 --> 00:00:28,000
+The most impressive, most important, and best-known thing about a quantum computer that it can do is to factor its spectacular efficiency, the product of two enormous prime numbers.
+
+4
+00:00:28,000 --> 00:00:31,000
+But what on earth can quantum mechanics have to do with factoring?
+
+5
+00:00:31,000 --> 00:00:42,000
+This question bothered me for four years, from that time I heard about the discovery that a quantum computer was spectacularly good at factoring, until I finally took the trouble to find out how it was done.
+
+6
+00:00:42,000 --> 00:00:52,000
+And the answer, you will be relieved, but if you're like me, also a little disappointed to learn, is that quantum mechanics has nothing at all directly to do with factoring.
+
+7
+00:00:52,000 --> 00:01:04,000
+But it does have a lot to do with waves, many important waves of periodics, so it is not very surprising that quantum mechanics might be useful in efficiently revealing features associated with periodicity.
+
+8
+00:01:04,000 --> 00:01:08,000
+Quantum mechanics is connected to factoring through periodicity.
+
+9
+00:01:08,000 --> 00:01:26,000
+It turns out, for purely arithmetic reasons, having nothing to do with quantum mechanics, that if we have an efficient way to find the period of a periodic function, then as we shall discuss, we can easily factor the product of two enormous prime numbers.
+
+10
+00:01:26,000 --> 00:01:30,000
+And a quantum computer provides an extremely efficient way to find periods.
+
+11
+00:01:31,000 --> 00:01:50,000
+This is of considerable practical importance, because the great difficulty in factoring such a product, where the two enormous prime numbers are typically each several hundred digits long, is the basis for the security of the most widely used encryption scheme for protecting private information sent over the internet.
+
+12
+00:01:50,000 --> 00:02:07,000
+In 1994, in fact, Peter Shor discovered that a quantum computer would be super efficient at period finding, and thereby pose a potential threat to innumerable secrets, whence the explosion of interest in developing quantum computation.
+
+13
+00:02:07,000 --> 00:02:19,000
+The threat is only potential, because no quantum computer capable of anything like serious period finding currently exists.
+
+14
+00:02:20,000 --> 00:02:38,000
+I suspect the emphasis has been put on factoring rather than period finding, because factoring is more famously associated with the RSA code breaking, although as it happens, period finding can be used directly to crack the RSA code, without any need for a detour into factoring.
+
+15
+00:02:39,000 --> 00:02:44,000
+Factoring is also a mathematical concept more familiar to the general public than period finding.
+
+16
+00:02:44,000 --> 00:02:53,000
+For instance, the focus on factoring has led to some spectacular misinterpretations of Shor's algorithm in what Einstein called the secular press.
+
+17
+00:02:53,000 --> 00:03:07,000
+For example, the New York Times science writer George Johnson says in his book on quantum computation, The Shortcut Through Time, that when the algorithm has done its job, the solutions, the factors of the number being analysed, will all be in superposition.
+
+18
+00:03:07,000 --> 00:03:17,000
+Elsewhere, he says that a quantum computer can try out all possible factors simultaneously in superposition, then collapse to reveal the answer.
+
+19
+00:03:17,000 --> 00:03:22,000
+Neither of these statements bears a slightest resemblance to what the algorithm actually does.
+
+20
+00:03:22,000 --> 00:03:24,000
+Thank you for watching!
+
+
