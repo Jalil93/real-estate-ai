@@ -2,9 +2,9 @@ import { getZillowDetailsByAddress } from "./api/apifyZillowScraper.js";
 import { getRealtorByName } from "./api/apifyRealtorScraper.js";
 import { getRentCastDetailsByAddress } from "./api/rentCastRequest.js";
 import fs from "fs";
-import dotenv from 'dotenv'; // Add this import
+import dotenv from 'dotenv';
 
-dotenv.config(); // Load .env variables into process.env
+dotenv.config();
 
 const inputAddress = '123 Main St.';
 const realtorName = 'John Doe';
@@ -38,4 +38,4 @@ const createSubmissionBody = async (address, realtorName) => {
     return submissionBody;
 };
 
-createSubmissionBody(inputAddress, realtorName);
+await createSubmissionBody(inputAddress, realtorName);

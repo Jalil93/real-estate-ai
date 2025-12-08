@@ -1,9 +1,6 @@
 import { ApifyClient } from 'apify-client';
 import readline from 'readline'
 
-const client = new ApifyClient({
-    token: process.env.APIFY_TOKEN
-});
 
 // let agentName = ""
 // const rl = await readline.createInterface({
@@ -18,6 +15,10 @@ const client = new ApifyClient({
 
 
 export const getRealtorByName = async (name) => {
+    const client = new ApifyClient({
+        token: process.env.APIFY_TOKEN
+    });
+
     // Prepare Actor input
     const input = { "query": ["Jin Wickwire"], "search_type": "agent", "limit": 1 };
 

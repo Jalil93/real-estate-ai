@@ -2,10 +2,11 @@
   "name": "real-estate-ai",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/whimsical_startup/createSubmissionRequest.js",
   "scripts": {
     "build": "tsc"
   },
+  "type": "module",
   "dependencies": {
     "apify-client": "^2.20.0",
     "aws-sdk": "^2.1692.0",

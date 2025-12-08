@@ -1,14 +1,16 @@
 import { ApifyClient } from 'apify-client';
 import fs from 'fs';
 
-// Rest of your code remains the same...
-const client = new ApifyClient({
-    token: process.env.APIFY_TOKEN
-});
+
 
 
 export const getZillowDetailsByAddress = async (address) => {
-// Starts an Actor and waits for it to finish
+// Rest of your code remains the same...
+    const client = new ApifyClient({
+        token: process.env.APIFY_TOKEN
+    });
+
+    // Starts an Actor and waits for it to finish
     const { defaultDatasetId } = await client.actor('maxcopell/zillow-detail-scraper').call({
         "addresses": [
             address
