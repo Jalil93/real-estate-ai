@@ -1,0 +1,488 @@
+[
+  {
+    "address": {
+      "city": "",
+      "country": "",
+      "line": "",
+      "line2": "",
+      "postal_code": "",
+      "state": "",
+      "state_code": ""
+    },
+    "advertiser_id": 2113759,
+    "agent_rating": 5,
+    "agent_team_details": {
+      "is_team_member": false
+    },
+    "agent_type": [],
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/1974188446/53d8b28c5f2bb58eca71f8f9e8883739g-c0s.jpg"
+    },
+    "broker": {
+      "accent_color": "",
+      "designations": [],
+      "fulfillment_id": 0,
+      "name": "",
+      "photo": {
+        "href": ""
+      },
+      "video": ""
+    },
+    "description": "Jin is a Top 1% Realtor in the Northern Virginia Area and a Washingtonian Top Agent.  She is a hard-working, detail-oriented, responsive, and enthusiastic agent who cares about her clients and the service she provides.  Jin has extensive experience working with people and solving their problems. Her ability to understand and work well with people will help her successfully collaborate and mediate various real estate situations. She will approach her real estate clients and transactions with care and detail.Jin is also a life-long Northern Virginian. Having resided in numerous cities across Northern Virginia throughout her life, Jin has firsthand and unique knowledge as a local. She is familiar with the neighborhoods, the culture, and the nuances of the area which will be a huge asset to her buyers and sellers.Jin is passionate about both real estate and helping people. Her primary goal is to bring exceptional customer service to all her clients through her diligence, effective communication, and warm personality.",
+    "designations": [],
+    "email": "jinwickwire@gmail.com",
+    "feed_licenses": [],
+    "first_month": 0,
+    "first_name": "Jin",
+    "first_year": 0,
+    "for_sale_price": {
+      "count": 4,
+      "last_listing_date": "2025-11-06T22:37:25Z",
+      "max": 1134990,
+      "min": 519000
+    },
+    "full_name": "Jin Chen",
+    "has_photo": true,
+    "href": "http://www.brambletonhomes.com",
+    "id": "56d62458de071e0100635f2b",
+    "is_complete_sort_flag": true,
+    "is_realtor": true,
+    "is_served_area_same": true,
+    "languages": [],
+    "last_name": "Chen",
+    "last_updated": "Mon, 17 Nov 2025 22:37:38 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "Ashburn_VA",
+        "name": "Ashburn",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Goose Creek Village_VA",
+        "name": "Goose Creek Village",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Lansdowne_VA",
+        "name": "Lansdowne",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "University Center_VA",
+        "name": "University Center",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "One Loudoun_VA",
+        "name": "One Loudoun",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Belmont_VA",
+        "name": "Belmont",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Broadlands_VA",
+        "name": "Broadlands",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Moorefield_VA",
+        "name": "Moorefield",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Brambleton_VA",
+        "name": "Brambleton",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Moorefield Station_VA",
+        "name": "Moorefield Station",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Dulles_VA",
+        "name": "Dulles",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Loudoun Valley Estates_VA",
+        "name": "Loudoun Valley Estates",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Lowes Island_VA",
+        "name": "Lowes Island",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Cascades_VA",
+        "name": "Cascades",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Sugarland Run_VA",
+        "name": "Sugarland Run",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Sterling_VA",
+        "name": "Sterling",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Oak Grove_VA",
+        "name": "Oak Grove",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Countryside_VA",
+        "name": "Countryside",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Potomac Falls_VA",
+        "name": "Potomac Falls",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Dulles Town Center_VA",
+        "name": "Dulles Town Center",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Arcola_VA",
+        "name": "Arcola",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Kincora_VA",
+        "name": "Kincora",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Leesburg_VA",
+        "name": "Leesburg",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "South Riding_VA",
+        "name": "South Riding",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Stone Ridge_VA",
+        "name": "Stone Ridge",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Sully Square_VA",
+        "name": "Sully Square",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Centreville_VA",
+        "name": "Centreville",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Chantilly_VA",
+        "name": "Chantilly",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Aldie_VA",
+        "name": "Aldie",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Union Mill_VA",
+        "name": "Union Mill",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Fair Oaks_VA",
+        "name": "Fair Oaks",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Oakton_VA",
+        "name": "Oakton",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Fairfax_VA",
+        "name": "Fairfax",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "George Mason_VA",
+        "name": "George Mason",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Fair Lakes_VA",
+        "name": "Fair Lakes",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Fairfax Station_VA",
+        "name": "Fairfax Station",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Braddock_VA",
+        "name": "Braddock",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Burke_VA",
+        "name": "Burke",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "South Run_VA",
+        "name": "South Run",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Kings Park West_VA",
+        "name": "Kings Park West",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Burke Centre_VA",
+        "name": "Burke Centre",
+        "state_code": "VA"
+      },
+      {
+        "city_state": "Long Branch_VA",
+        "name": "Long Branch",
+        "state_code": "VA"
+      }
+    ],
+    "mls": [
+      {
+        "abbreviation": "PHPA",
+        "license_number": "0225215992",
+        "member": {
+          "id": "3084731"
+        },
+        "primary": true,
+        "type": "A"
+      }
+    ],
+    "mls_history": [],
+    "mls_monetization": false,
+    "name": "Jin (Chen) Wickwire, Agent",
+    "nar_only": 1,
+    "nick_name": "",
+    "nrds_id": "846556884",
+    "office": {
+      "address": {
+        "city": "",
+        "country": "",
+        "line": "",
+        "line2": "",
+        "postal_code": "",
+        "state": "",
+        "state_code": ""
+      },
+      "email": "",
+      "feed_licenses": [],
+      "fulfillment_id": 0,
+      "licenses": [],
+      "mls": [],
+      "name": "",
+      "phones": [],
+      "photo": {
+        "href": ""
+      },
+      "slogan": "",
+      "video": "",
+      "website": ""
+    },
+    "party_id": 201744386,
+    "person_name": "Jin (Chen) Wickwire",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(703) 625-4779",
+        "type": "Mobile"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/2ad0fb1b069b0762754a51fa74350c92a-e3880496235s.jpg",
+      "is_zoomed": true
+    },
+    "recently_sold": {
+      "count": 25,
+      "last_sold_date": "2025-11-07",
+      "max": 1360000,
+      "min": 330000
+    },
+    "recommendations_count": 4,
+    "review_count": 38,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Ashburn",
+        "state_code": "VA"
+      },
+      {
+        "name": "Sterling",
+        "state_code": "VA"
+      },
+      {
+        "name": "Leesburg",
+        "state_code": "VA"
+      },
+      {
+        "name": "Chantilly",
+        "state_code": "VA"
+      },
+      {
+        "name": "Aldie",
+        "state_code": "VA"
+      },
+      {
+        "name": "Fairfax",
+        "state_code": "VA"
+      },
+      {
+        "name": "Burke",
+        "state_code": "VA"
+      },
+      {
+        "name": "brambleton",
+        "state_code": "NA"
+      }
+    ],
+    "served_areas_with_zips": [
+      {
+        "name": "Ashburn",
+        "state_code": "VA"
+      },
+      {
+        "name": "Sterling",
+        "state_code": "VA"
+      },
+      {
+        "name": "Leesburg",
+        "state_code": "VA"
+      },
+      {
+        "name": "Chantilly",
+        "state_code": "VA"
+      },
+      {
+        "name": "Aldie",
+        "state_code": "VA"
+      },
+      {
+        "name": "Fairfax",
+        "state_code": "VA"
+      },
+      {
+        "name": "Burke",
+        "state_code": "VA"
+      },
+      {
+        "name": "Brambleton",
+        "state_code": "VA"
+      }
+    ],
+    "slogan": "",
+    "social_media": {
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null,
+      "tiktok": null,
+      "twitter": {
+        "href": "http://twitter.com/JinChenWickwire",
+        "type": "twitter"
+      },
+      "x": null,
+      "youtube": null
+    },
+    "specializations": [
+      {
+        "name": "buying real estate"
+      },
+      {
+        "name": "real estate agent"
+      },
+      {
+        "name": "real estate services"
+      },
+      {
+        "name": "relocation"
+      },
+      {
+        "name": "rentals"
+      },
+      {
+        "name": "selling real estate"
+      },
+      {
+        "name": "buyer's agent"
+      },
+      {
+        "name": "listing services"
+      },
+      {
+        "name": "seller's agent"
+      },
+      {
+        "name": "brambletonhomes"
+      },
+      {
+        "name": "loudouncountyrealtor"
+      },
+      {
+        "name": "loudouncountyrealestate"
+      },
+      {
+        "name": "listing agent"
+      },
+      {
+        "name": "westmoore"
+      },
+      {
+        "name": "northern virginia realtor"
+      },
+      {
+        "name": "brambleton realtor"
+      },
+      {
+        "name": "first time home buyer"
+      }
+    ],
+    "title": "Agent",
+    "types": "agent",
+    "user_languages": [
+      "English",
+      "Korean"
+    ],
+    "web_url": "https://www.realtor.com/realestateagents/Jin-(Chen)-Wickwire___2113759_511344351",
+    "zips": [
+      "20146",
+      "20147",
+      "20148",
+      "20164",
+      "20165",
+      "20166",
+      "20167",
+      "20175",
+      "20176",
+      "20152",
+      "20151",
+      "20105",
+      "22030",
+      "22015",
+      "22032"
+    ]
+  }
+]

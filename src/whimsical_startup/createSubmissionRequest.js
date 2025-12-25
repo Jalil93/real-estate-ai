@@ -16,14 +16,61 @@ const createSubmissionBody = async (address, realtorName) => {
     const realtor = await getRealtorByName(realtorName);
     const rentcast = await getRentCastDetailsByAddress(address);
 
-    const submissionBody = {
-        zillowDetails,
-        realtor,
-        rentcast,
-        timestamp: now.toString()
-    };
+    let submissionBody = fs.readFile('src/whimsical_startup/fields.json');
 
-    const fileNo = 'output' + now.toString().replace(/[^a-zA-Z0-9]/g, '').substring(3, 18);
+    submissionBody = JSON.parse(submissionBody);
+
+    submissionBody['addressLine1'] = rentcast[0].addressLine1;
+    submissionBody['city'] = rentcast[0].city;
+    submissionBody['zipCode'] = rentcast[0].zipCode
+    submissionBody['taxMapId'] = rentcast[0].parcelId || rentcast[0].resoFacts.parcelNumber
+
+    for (fact in zillowDetails[0].resoFacts.atAGlanceFacts) {
+
+        fact['factLabel'] === 'Type' ? submissionBody['subdivision_or_condominium'] = fact['factValue'] : null;
+
+        fact['factLabel'] === 'Parking' ? submissionBody['subdivision_or_condominium'] = fact['factValue'] : null;
+        fact['factLabel'] === 'HOA' ? submissionBody['subdivision_or_condominium'] = fact['factValue'] : null;
+
+        if (fact['factLabel'] === 'Year Built') {
+            parseInt(fact['factValue']) >= 1978 ? submissionBody['yearBuiltForLead1978'] = 'builtOnOrAfter1978': submissionBody['yearBuiltForLead1978'] = 'builtBefore1978';
+        }
+
+        if (fact['factLabel'] === 'Heating') {
+            submissionBody['heating'] = 'electric';
+            String(fact['factValue']).includes('Natural Gas') ? submissionBody['heating'] = 'gas': null;
+            String(fact['factValue']).includes('Heat Pump') ? submissionBody['heating'] = 'heat pump': null;
+            String(fact['factValue']).includes('oil') ? submissionBody['heating'] = 'oil': null;
+            String(fact['factValue']).includes('other') ? submissionBody['heating'] = 'other': null;
+        }
+
+        if (fact['factLabel'] === 'Cooling') {
+            submissionBody['airConditioning'] = 'electric';
+            String(fact['factValue']).includes('Heat Pump') ? submissionBody['airConditioning'] = 'heat pump': null;
+            String(fact['factValue']).includes('Natural Gas') ? submissionBody['airConditioning'] = 'gas': null;
+            String(fact['factValue']).includes('oil') ? submissionBody['airConditioning'] = 'oil': null;
+            String(fact['factValue']).includes('other') ? submissionBody['airConditioning'] = 'other': null;
+        }
+
+    }
+
+
+    submissionBody['parking_spaces'] =
+    submissionBody['county'] =
+
+
+
+
+
+
+    // const submissionBody = {
+    //     zillowDetails,
+    //     realtor,
+    //     rentcast,
+    //     timestamp: now.toString()
+    // };
+
+    const fileNo = 'output_' + now.toString().replace(/[^a-zA-Z0-9]/g, '').substring(3, 18);
     const filePath = process.cwd()+'/output/'+fileNo
 
 

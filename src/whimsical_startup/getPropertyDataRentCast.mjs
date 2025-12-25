@@ -56,7 +56,7 @@ const mapContractFields = async (parameters) => {
     // const propertyDetailsObj = parameters.propertyDetails;
     // const newContractObj = parameters.contractFields;
 
-    const propertyDetailsObj = JSON.parse(fs.readFileSync('sample_response_rentCast.json', 'utf8'));
+    const propertyDetailsObj = JSON.parse(fs.readFileSync('SAMPLE_rentcast_response.json', 'utf8'));
     const newContractObj = JSON.parse(fs.readFileSync('request_template_docuSeal.json', 'utf8'));
 
 

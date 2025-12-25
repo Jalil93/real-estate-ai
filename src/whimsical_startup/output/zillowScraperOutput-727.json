@@ -2205,7 +2205,7 @@
         "zpid": 51748650,
         "miniCardPhotos": [
           {
-            "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=38.92816162109375,-77.23281860351562&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=A0X8gxlckEHinZXc1bO4RRQ4p50="
+            "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=38.92816162109375,-77.23281860351562&key=*****&&signature=A0X8gxlckEHinZXc1bO4RRQ4p50="
           }
         ],
         "price": 344700,
@@ -2489,7 +2489,7 @@
         "zpid": 51748654,
         "miniCardPhotos": [
           {
-            "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=38.92816162109375,-77.23281860351562&key=AIzaSyBWYJWCA8FNMQvSe_k3LKfDGJaEgdKwsco&&signature=A0X8gxlckEHinZXc1bO4RRQ4p50="
+            "url": "https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=38.92816162109375,-77.23281860351562&key=*****&&signature=A0X8gxlckEHinZXc1bO4RRQ4p50="
           }
         ],
         "price": 404600,
