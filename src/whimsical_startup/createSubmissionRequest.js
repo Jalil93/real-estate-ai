@@ -24,13 +24,14 @@ const createSubmissionBody = async (address, realtorName) => {
     submissionBody['city'] = rentcast[0].city;
     submissionBody['zipCode'] = rentcast[0].zipCode
     submissionBody['taxMapId'] = rentcast[0].parcelId || rentcast[0].resoFacts.parcelNumber
+    submissionBody['county'] = rentcast[0].county
 
+    submissionBody['hoa'] = 'false'
     for (fact in zillowDetails[0].resoFacts.atAGlanceFacts) {
 
         fact['factLabel'] === 'Type' ? submissionBody['subdivision_or_condominium'] = fact['factValue'] : null;
 
-        fact['factLabel'] === 'Parking' ? submissionBody['subdivision_or_condominium'] = fact['factValue'] : null;
-        fact['factLabel'] === 'HOA' ? submissionBody['subdivision_or_condominium'] = fact['factValue'] : null;
+        (fact['factLabel'] === 'HOA') && (String(fact['factValue'])) !== 'None' ?  submissionBody['hoa'] = 'true' : null;
 
         if (fact['factLabel'] === 'Year Built') {
             parseInt(fact['factValue']) >= 1978 ? submissionBody['yearBuiltForLead1978'] = 'builtOnOrAfter1978': submissionBody['yearBuiltForLead1978'] = 'builtBefore1978';
@@ -54,9 +55,13 @@ const createSubmissionBody = async (address, realtorName) => {
 
     }
 
+    submissionBody['condo'] = 'false'
+    zillowDetails[0].resoFacts.homeType === 'Condo' ? submissionBody['condo'] = 'true' : null;
 
-    submissionBody['parking_spaces'] =
-    submissionBody['county'] =
+
+
+
+
 
 
 
